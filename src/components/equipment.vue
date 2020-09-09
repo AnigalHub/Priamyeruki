@@ -135,7 +135,7 @@
         }
     }
 </script>
-<style>
+<style >
     @media screen and (max-width: 500px) {
         tr:hover {
             background: rgba(255, 255, 255, 0.87) !important;
@@ -150,9 +150,6 @@
     th {
         background: #152534 !important;
     }
-    tr td {
-        text-align:left !important;
-    }
 </style>
 <style scoped lang="scss">
     #equipment{
@@ -164,6 +161,7 @@
     }
     p {
         margin-bottom: -0.2rem !important;
+        text-align:left !important;
     }
     img{
         box-shadow: none !important;
