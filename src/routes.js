@@ -71,6 +71,6 @@ export default[
     {
         path: '/:activity',
         name: 'Activity',
-        component: () => import("./components/LandingPage/activity")
+        component: () => import("./components/LandingPage/catalog")
     },
 ];
