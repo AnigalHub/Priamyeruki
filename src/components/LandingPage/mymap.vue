@@ -19,7 +19,7 @@
             height: auto;
             width:100% !important;
             border:0;
-           filter: brightness(88%);
+           filter: brightness(95%);
             box-shadow: none !important;
         }
     }
