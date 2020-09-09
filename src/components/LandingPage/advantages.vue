@@ -78,6 +78,8 @@
     #background{
         background-color: rgba(0, 0, 0, 0.7);
         padding: 1.5% 0 2% 0;
+        border-bottom: 2px solid #152534;
+        border-top: 2px solid #152534;
     }
     #advantages{
         background: url("../../../public/images/b2.jpg") 100% 100% no-repeat;
