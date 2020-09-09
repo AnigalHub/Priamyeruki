@@ -8,7 +8,7 @@
     </div>
 </template>
 <script>
-    import Activity from "./LandingPage/activity"
+    import Activity from "./LandingPage/catalog"
     import Advantages from "./LandingPage/advantages"
     import Feedback from "./LandingPage/feedback"
     import Home from "./LandingPage/home"
