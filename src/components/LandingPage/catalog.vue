@@ -3,10 +3,10 @@
         <b-container>
             <h2>Направления деятельности</h2>
             <div class="flex-container">
-                <div v-for="(activity, index) in activities" :key="index">
-                    <router-link :to="activity.link">
-                        <img :src="activity.src" :alt="activity.alt"/>
-                        <h5>{{activity.descr}}</h5>
+                <div v-for="(catalog, index) in calalog" :key="index">
+                    <router-link :to="catalog.link">
+                        <img :src="catalog.src" :alt="catalog.alt"/>
+                        <h5>{{catalog.descr}}</h5>
                     </router-link>
                 </div>
             </div>
@@ -16,10 +16,10 @@
 
 <script>
     export default {
-        name: "activity",
+        name: "catalog",
         data(){
             return{
-                activities:[
+                calalog:[
                     {
                         link: "../processing_on_a_cnc_milling_machine",
                         src: "./images/1.jpg",
