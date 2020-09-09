@@ -6,13 +6,9 @@
                     Изготовление разнообразного декора, рекламных вывесок,
                     сувенирной продукции, реставрация, брендирование
                 </div>
-                <div class="buttons justify-content-cente">
-                        <router-link to="/samples_of_work">
-                            <button type="submit">Наши работы</button>
-                        </router-link>
-                    <router-link to="/equipment">
-                        <button type="submit">Производство</button>
-                    </router-link>
+                <div class="buttons justify-content-center">
+                    <router-link :to="{name: 'Samples'}" tag="button">Наши работы</router-link>
+                    <router-link :to="{name: 'Equipment'}" tag="button">Производство</router-link>
                 </div>
             </b-container>
         </div>
@@ -29,6 +25,7 @@
     #background{
        background-color: rgba(0, 0, 0, 0.45);
        padding: 6.9% 0 6.9% 0;
+       border-bottom: 2px solid #152534;
     }
     #home{
         background: url("../../../public/images/bb.jpg") 100% 100% no-repeat;
@@ -38,30 +35,33 @@
     }
     .description{
         text-align: center;
-        color: rgba(255, 255, 255, 0.85);
+        color: rgba(255, 255, 255, 0.95);
         font-weight: 600;
         cursor: default;
         line-height: 3rem;
         font-family: "Tenor Sans", sans-serif;
-        text-shadow: 1.2px 1.2px 1.2px #152534;
+        text-shadow: 1.4px 1.4px 1.4px #152534;
         font-size: 2.6rem;
     }
     button{
         width: 45%;
         background: radial-gradient(50% 70%, #ffffff, rgb(160, 156, 161));
-        border: 0 !important;
+        border: none !important;
         border-radius: 7px;
         margin-top: 6%;
         font-weight: 700;
-        color: #152534;
+        color: #193647;
         margin-left: 1% !important;
         margin-right: 1% !important;
-        padding: 0.7%;
+        padding: 0.8%;
         font-size: 1.3rem;
     }
     button:hover{
-        background: #ffffff;
-        box-shadow: 7px 7px 7px #696969;
+        background: #ffffff !important;
+        color: black;
+        text-shadow: 1.5px 1.5px 2px white;
+        border: 2px solid #193647;
+        box-shadow: 5px 5px 5px #696969;
     }
     .buttons{
         margin: 0 20% !important;
@@ -116,7 +116,7 @@
             font-size: 2rem;
         }
     }
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1300px) {
         #home{
             background: url("../../../public/images/bb2.jpg") 100% 100% no-repeat;
            background-attachment: initial;
