@@ -42,7 +42,7 @@
                             ],
                             equipment: {
                                 imgSrc:'./images/equipment_1.jpg',
-                                imgAlt:'картинка',
+                                imgAlt:'FZT-1212',
                             },
                         },
                         {
@@ -63,7 +63,7 @@
                             ],
                             equipment: {
                                 imgSrc:'./images/equipment_3.jpg',
-                                imgAlt:'картинка',
+                                imgAlt:'CNC-3018',
                             },
                         },
                         {
@@ -80,7 +80,7 @@
                             ],
                             equipment: {
                                 imgSrc:'./images/equipment_5.jpg',
-                                imgAlt:'картинка',
+                                imgAlt:'Установка_химической_металлизации',
                             },
                         },
                         {
@@ -93,7 +93,7 @@
                             ],
                             equipment: {
                                 imgSrc:'./images/equipment_2.jpg',
-                                imgAlt:'картинка',
+                                imgAlt:'NORDBERG-NS4',
                             },
 
                         },
@@ -109,7 +109,7 @@
                             ],
                             equipment: {
                                 imgSrc:'./images/equipment_4.jpg',
-                                imgAlt:'картинка',
+                                imgAlt:'Технологическая_ванна_для_аквапринта',
                             },
                         },
                    ],
