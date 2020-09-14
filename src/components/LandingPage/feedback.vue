@@ -7,7 +7,7 @@
                     <b-row>
                         <b-col cols="4">
                             <label class="text_night" for="name">Ваше имя:</label>
-                            <input type="text" class="form-control" placeholder="ФИО" id="name" name="name" required="" data-validation-required-message="Пожалуйста, введите Ваше имя">
+                            <input v-model="feedbackData.userName" type="text" class="form-control" placeholder="ФИО" id="name" name="name" required="" data-validation-required-message="Пожалуйста, введите Ваше имя">
                             <label class="text_night" for="phone">Ваше телефон:</label>
                             <input type="tel" class="form-control" placeholder="+7(xxx)xxx-xx-xx" pattern="+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" id="phone" name="phone" required="" data-validation-required-message="Пожалуйста, введите Номер телефона">
                             <label class="text_night" for="mail">Ваш E-mail:</label>
@@ -27,7 +27,17 @@
 
 <script>
     export default {
-        name: "feedback"
+        name: "feedback",
+        data(){
+            return {
+                feedbackData: {
+                    userName: '',
+                    userPhone: '',
+                    userEmail: '',
+                    userMessage: '',
+                }
+            }
+        }
     }
 </script>
 
