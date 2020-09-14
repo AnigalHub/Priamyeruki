@@ -3,41 +3,8 @@
         <b-container>
             <h2>Портфолио</h2>
             <div class="flex-container">
-                <div>
-                    <img src="../../public/images/portfolio_9.png"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_1.jpg"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_3.png"/>
-                </div>
-                <div>
-                   <img src="../../public/images/portfolio_6.png"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_2.png"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_4.jpg"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_7.jpg"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_5.jpg"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_10.jpg"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_8.png"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_7.png"/>
-                </div>
-                <div>
-                    <img src="../../public/images/portfolio_11.png"/>
+                <div v-for="(work, index) in Works" :key="index">
+                    <img :src="work.src" :alt="work.alt"/>
                 </div>
             </div>
         </b-container>
@@ -46,7 +13,61 @@
 
 <script>
     export default {
-        name: "samples_of_work"
+        name: "samples_of_work",
+        data(){
+            return{
+                Works:[
+                    {
+                        src: "./images/portfolio_9.png",
+                        alt: "Доска",
+                    },
+                    {
+                        src: "./images/portfolio_1.jpg",
+                        alt: "Вывеска",
+                    },
+                    {
+                        src: "./images/portfolio_3.png",
+                        alt: "Часы",
+                    },
+                    {
+                        src: "./images/portfolio_6.png",
+                        alt: "Коробочки_для кубиков",
+                    },
+                    {
+                        src: "./images/portfolio_2.png",
+                        alt: "Шкатулка",
+                    },
+                    {
+                        src: "./images/portfolio_4.jpg",
+                        alt: "Подарочные_коробки",
+                    },
+                    {
+                        src: "./images/portfolio_7.jpg",
+                        alt: "Зеркало",
+                    },
+                    {
+                        src: "./images/portfolio_5.jpg",
+                        alt: "Мотоцикл",
+                    },
+                    {
+                        src: "./images/portfolio_10.jpg",
+                        alt: "Диски_машины",
+                    },
+                    {
+                        src: "./images/portfolio_8.png",
+                        alt: "Обработка_детали",
+                    },
+                    {
+                        src: "./images/portfolio_7.png",
+                        alt: "Капот",
+                    },
+                    {
+                        src: "./images/portfolio_11.png",
+                        alt: "Двери",
+                    },
+                ],
+            }
+        }
     }
 </script>
 
