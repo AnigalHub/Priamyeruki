@@ -5,11 +5,13 @@
             <div class="text">
                <b>ООО «Аваконт»</b>
                 <br>
-               <b>Телефон:</b>  +7 (495) 369-26-73
+               <b>Телефон:</b>
+                <a :href=" link_phone"> {{phone}}</a>
                 <br>
-                <b>Почта:</b> priamyeruki@mail.ru
+                <b>Почта:</b>
+                    <a :href="link_mail">{{mail}}</a>
                 <br>
-               <b>Часы работы:</b>  Пн. – Пт.: с 9:00 до 18:00
+               <b>Часы работы:</b>  {{working_hours}}
             </div>
             <b-row>
                 <b-col>
@@ -34,11 +36,27 @@
 
 <script>
     export default {
-        name: "contacts"
+        name: "contacts",
+        data(){
+            return {
+                working_hours:'Пн. – Пт.: с 9:00 до 18:00',
+                phone:'+7 (495) 369-26-73',
+                link_phone:'tel:+74953692673',
+                mail:'priamyeruki@mail.ru',
+                link_mail:'mailto:priamyeruki@mail.ru'
+            }
+        }
     }
 </script>
 
 <style scoped lang="scss">
+    a {
+        color: #152534;
+    }
+    a:hover{
+        color: rgba(23, 8, 133, 0.9);
+        font-weight: 600;
+    }
     .text{
         text-indent: 0 !important;
     }
