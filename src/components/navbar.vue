@@ -104,9 +104,6 @@
             background: radial-gradient(90% 70%, #ffffff, rgb(235, 231, 236)) !important;
             border: 0.4px solid rgba(75, 105, 119, 0.66) !important;
         }
-        .navbar-nav .dropdown-menu {
-            float: left !important;
-        }
         .btn-group {
             display: block !important;
         }
@@ -144,6 +141,7 @@
             background: radial-gradient(90% 70%, #ffffff, rgb(235, 231, 236)) !important;
             border: 0.4px solid rgba(75, 105, 119, 0.66) !important;
         }
+
         .btn-group {
             display: block !important;
         }
