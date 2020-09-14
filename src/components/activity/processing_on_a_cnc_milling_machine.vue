@@ -53,6 +53,12 @@
             <h4>Прайс-лист:</h4>
             <b-card no-body>
                 <b-tabs card>
+                    <b-tab v-for="(tab, index) in tabs" :key="index" :title="tab.name">
+                        <b-card-text>
+                            <h5>tab.name</h5>
+                            <b-table  hover :items="tab.pricelist"></b-table>
+                        </b-card-text>
+                    </b-tab>
                     <b-tab title="Дерево" active>
                         <b-card-text>
                             <h5>Дерево</h5>
@@ -123,6 +129,16 @@
         components: {Service},
         data() {
             return {
+                tabs:[
+                    {
+                        name: "Дерево",
+                        pricelist: pricelist_wood,
+                    },
+                    {
+                        name: "Фанера",
+                        pricelist: pricelist_plywood,
+                    },
+                ],
                 pricelist_wood: pricelist_wood,
                 pricelist_plywood: pricelist_plywood,
                 pricelist_dsp: pricelist_dsp,
@@ -143,7 +159,7 @@
                         ' есть готовый макет, у нас не возникает сложностей с его адаптацией.',
                         img_service: {
                             imgSrc:'./images/processing_1.jpg',
-                            imgAlt:'картинка',
+                            imgAlt:'Разработка_технического_задания_и_дизайн_будущей_детали',
                         },
                     },
                     {
@@ -157,7 +173,7 @@
                         ' делается тонкая настройка скорости шпинделя и подачи материала.',
                         img_service: {
                             imgSrc:'./images/processing_2.jpg',
-                            imgAlt:'картинка',
+                            imgAlt:'Программирование_для_ЧПУ',
                         },
                     },
                     {
@@ -167,7 +183,7 @@
                         ' Регулировка смещения - проверка детали на заданные размеры (регулирование регистров коррекции).',
                         img_service: {
                             imgSrc:'./images/processing_3.jpg',
-                            imgAlt:'картинка',
+                            imgAlt:'Изготовление_детали_на_станке',
                         },
                     },
                 ],

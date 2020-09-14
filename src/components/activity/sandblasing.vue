@@ -10,7 +10,6 @@
             </p>
             <b-row class="important_row">
                 <b-col cols="5">
-
                     <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/onIttBx4yFQ" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </b-col>
@@ -44,7 +43,7 @@
             <h4>Технология пескоструйной обработки в нашем цехе:</h4>
             <b-row class="important_row">
                 <b-col cols="4">
-                    <img src="../../../public/images/sandblasting_2.jpg"/>
+                    <img src="../../../public/images/sandblasting_2.jpg" alt="Пескоструйная_камера_изнутри"/>
                 </b-col>
                 <b-col class="text">
                    В кабину камеры помещается деталь, специалисты нашей компании
