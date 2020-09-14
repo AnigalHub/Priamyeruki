@@ -23,9 +23,6 @@
     #activity,#feedback{
         padding: 1.5% 0 2.5% 0;
     }
-    img {
-        width: 100%;
-    }
     h2 {
         font-weight: 700 !important;
         text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.74);
