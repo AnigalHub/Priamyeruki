@@ -1,5 +1,4 @@
 <template>
-    <div>
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 172 172" style=" fill:#000000;">
             <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -11,7 +10,6 @@
                 </g>
             </g>
         </svg>
-    </div>
 </template>
 
 <script>
