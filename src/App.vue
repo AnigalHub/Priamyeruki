@@ -86,7 +86,7 @@
   }
   img{
     width: 100%;
-      filter:  contrast(115%);
+    filter:  contrast(115%);
 
   }
   #processing, #modeling, #chrome_plating, #aquaprint, #laser,
@@ -98,7 +98,7 @@
     padding-top: 0.1%;
     color: #152534;
     font-size: 1.25rem;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
     text-shadow: 0.2px 0.2px 0.2px #152534;
     font-family: 'Noto Serif TC', serif;
     padding-bottom: 1.5%;
@@ -121,7 +121,7 @@
     text-shadow: 0.3px 0.3px 0.3px #ffffff;
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 1.3rem;
+    line-height: 1.45rem;
     padding-bottom: 1.5%;
   }
   .text_after_video{
@@ -430,11 +430,11 @@
       font-size: 1.2rem !important;
     }
     .text_light,.text_night{
-      line-height: 1.2rem;
+      line-height: 1.25rem;
     }
     .price, td,th,.text{
         font-size: 1rem;
-        line-height: 1.35rem;
+        line-height: 1.4rem;
     }
   }
   @media screen and (min-width: 1200px)and (max-width: 1400px) {
