@@ -55,61 +55,12 @@
                 <b-tabs card>
                     <b-tab v-for="(tab, index) in tabs" :key="index" :title="tab.name">
                         <b-card-text>
-                            <h5>tab.name</h5>
+                            <h5>{{tab.name}}</h5>
                             <b-table  hover :items="tab.pricelist"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="Дерево" active>
-                        <b-card-text>
-                            <h5>Дерево</h5>
-                            <b-table  hover :items="pricelist_wood"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="Фанера">
-                        <b-card-text>
-                            <h5>Фанера</h5>
-                            <b-table  hover :items="pricelist_plywood"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="ДСП">
-                        <b-card-text>
-                            <h5>ДСП</h5>
-                            <b-table  hover :items="pricelist_dsp"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="Композит">
-                        <b-card-text>
-                            <h5>Композит</h5>
-                            <b-table  hover :items="pricelist_composite"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="ПВХ">
-                        <b-card-text>
-                            <h5>ПВХ</h5>
-                            <b-table  hover :items="pricelist_pvc"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="Поликарбонат">
-                        <b-card-text>
-                            <h5>Поликарбонат</h5>
-                            <b-table  hover :items="pricelist_polycarbonate"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="Полистирол">
-                        <b-card-text>
-                            <h5>Полистирол</h5>
-                            <b-table  hover :items="pricelist_polystyrene"></b-table>
-                        </b-card-text>
-                    </b-tab>
-                    <b-tab title="Алюминий">
-                        <b-card-text>
-                            <h5>Алюминий</h5>
-                            <b-table  hover :items="pricelist_aluminum"></b-table>
                         </b-card-text>
                     </b-tab>
                 </b-tabs>
             </b-card>
-
         </b-container>
     </div>
 </template>
@@ -138,6 +89,31 @@
                         name: "Фанера",
                         pricelist: pricelist_plywood,
                     },
+                    {
+                        name: "ДСП",
+                        pricelist:  pricelist_dsp,
+                    },
+                    {
+                        name: "Композит",
+                        pricelist: pricelist_composite,
+                    },
+                    {
+                        name: "ПВХ",
+                        pricelist: pricelist_pvc,
+                    },
+                    {
+                        name: "Поликарбонат",
+                        pricelist:pricelist_polycarbonate,
+                    },
+                    {
+                        name: "Алюминий",
+                        pricelist:pricelist_aluminum,
+                    },
+                    {
+                        name: "Полистирол",
+                        pricelist:pricelist_polystyrene,
+                    },
+
                 ],
                 pricelist_wood: pricelist_wood,
                 pricelist_plywood: pricelist_plywood,
