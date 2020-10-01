@@ -18,53 +18,74 @@
             return{
                 Works:[
                     {
-                        src: "./images/portfolio_9.png",
-                        alt: "Доска",
-                    },
-                    {
-                        src: "./images/portfolio_1.jpg",
-                        alt: "Вывеска",
-                    },
-                    {
-                        src: "./images/portfolio_3.png",
-                        alt: "Часы",
-                    },
-                    {
-                        src: "./images/portfolio_6.png",
-                        alt: "Коробочки_для кубиков",
+                        src: "./images/portfolio_1.png",
+                        alt: "Наручники",
                     },
                     {
                         src: "./images/portfolio_2.png",
-                        alt: "Шкатулка",
+                        alt: "Крепеж",
                     },
                     {
-                        src: "./images/portfolio_4.jpg",
-                        alt: "Подарочные_коробки",
+                        src: "./images/portfolio_3.png",
+                        alt: "Ваза_в_сад",
+                    },
+                    {
+                        src: "./images/portfolio_4.png",
+                        alt: "Кронштейн",
+                    },
+                    {
+                        src: "./images/portfolio_5.png",
+                        alt: "Замок",
+                    },
+                    {
+                        src: "./images/portfolio_6.jpg",
+                        alt: "Вывеска",
                     },
                     {
                         src: "./images/portfolio_7.jpg",
-                        alt: "Зеркало",
-                    },
-                    {
-                        src: "./images/portfolio_5.jpg",
-                        alt: "Мотоцикл",
-                    },
-                    {
-                        src: "./images/portfolio_10.jpg",
-                        alt: "Диски_машины",
+                        alt: "Подарочные_коробки",
                     },
                     {
                         src: "./images/portfolio_8.png",
-                        alt: "Обработка_детали",
+                        alt: "Коробочка",
                     },
                     {
-                        src: "./images/portfolio_7.png",
-                        alt: "Капот",
+                        src: "./images/portfolio_9.png",
+                        alt: "Подарочная упаковка",
+                    },
+                    {
+                        src: "./images/portfolio_10.png",
+                        alt: "Часы",
                     },
                     {
                         src: "./images/portfolio_11.png",
-                        alt: "Двери",
+                        alt: "Шкатулка",
                     },
+                    {
+                        src: "./images/portfolio_12.png",
+                        alt: "Коробочки_для камней",
+                    },
+                    {
+                        src: "./images/portfolio_13.jpg",
+                        alt: "Таблика_Гостехносервис",
+                    },
+                    {
+                        src: "./images/portfolio_14.jpg",
+                        alt: "Светильник",
+                    },
+                    {
+                        src: "./images/portfolio_15.jpg",
+                        alt: "Почищенные_ключи",
+                    },
+                    {
+                        src: "./images/portfolio_16.jpg",
+                        alt: "Чистый_корпус_лопаты",
+                    },
+                    {
+                        src: "./images/portfolio_17.jpg",
+                        alt: "Мотоцикл",
+                    },
+
                 ],
             }
         }
@@ -92,7 +113,7 @@
     }
     .flex-container > div {
         background: radial-gradient(70% 70%, #ffffff, rgb(210, 206, 211));
-        width: 28%;
+        width: 22%;
         margin: 0 1.5% 2.2% 1.5% !important;
     }
     @media screen and (max-width: 768px) {
@@ -107,8 +128,11 @@
         .flex-container > div {
             margin: 0 2% 3.8% 2% !important;
         }
+        .flex-container > div {
+            width: 28%;
+        }
     }
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 768px) {
         .flex-container > div {
             width: 42%;
         }
