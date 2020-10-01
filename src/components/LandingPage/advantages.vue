@@ -94,7 +94,6 @@
     }
     .col:hover svg{
         animation: bounce-out 1.2s;
-
     }
     .col:hover{
         cursor: default;
