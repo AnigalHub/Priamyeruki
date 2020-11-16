@@ -124,11 +124,9 @@
     line-height: 1.45rem;
     padding-bottom: 1.5%;
   }
+
   .text_after_video{
       padding-top: 1.5%;
-  }
-  p{
-    margin-bottom: 0 !important;
   }
   .text_light{
     color: rgba(255, 255, 255, 0.85);
