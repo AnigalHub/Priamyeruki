@@ -30,7 +30,6 @@
                     <b-nav-item to="/samples_of_work">Образцы работ</b-nav-item>
                     <b-nav-item>Отзывы</b-nav-item>
                     <b-nav-item to="/contacts">Контакты</b-nav-item>
-                   <!-- <b-nav-item>+7 (495) 369-26-73<br>priamyeruki@mail.ru</b-nav-item> -->
                 </b-navbar-nav>
             </b-collapse>
         </b-container>
