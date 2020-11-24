@@ -28,8 +28,7 @@
                     </router-link>
                 </b-col>
                 <b-col>
-                    г. Люберцы, Инициативная ул.,
-                    дом 34А, объект 3, офис 5
+                    {{manufacturers_address}}
                 </b-col>
             </b-row>
         </b-container>
@@ -37,8 +36,14 @@
 </template>
 
 <script>
+    import manufacturers_address from '../../public/documents/address/manufacturers_address.json';
     export default {
-        name: "myfooter"
+        name: "myfooter",
+        data(){
+            return{
+                manufacturers_address:manufacturers_address,
+            }
+        }
     }
 </script>
 
@@ -48,7 +53,6 @@
         background-size:100% 100%;
         padding: 1.8% 0;
     }
-
     .col{
         font-size: 1.15rem;
         text-align: center;
