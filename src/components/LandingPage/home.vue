@@ -7,7 +7,7 @@
                     сувенирной продукции, реставрация, брендирование
                 </div>
                 <div class="buttons justify-content-center">
-                    <router-link :to="{name: 'Samples'}" tag="button">Наши работы</router-link>
+                    <router-link :to="{name: 'Samples'}" tag="button">Портфолио</router-link>
                     <router-link :to="{name: 'Equipment'}" tag="button">Производство</router-link>
                 </div>
             </b-container>
