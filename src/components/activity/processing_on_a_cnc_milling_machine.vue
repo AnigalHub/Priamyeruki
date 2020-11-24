@@ -178,12 +178,10 @@
         border: 1px solid #173e4e !important;
     }
     .card-header {
-
         border-bottom: 1px solid #173e4e !important;
         background: none !important;
     }
     .nav-tabs .nav-link.active{
-
         color: #152534 !important;
         font-weight: 800 !important;
         border-color: #173e4e #173e4e  !important;
@@ -196,6 +194,7 @@
     }
     .nav-tabs{
         font-family: 'Noto Serif TC', serif;
+        font-size: 1.3rem;
     }
     .card-body h5{
         display: none !important;
