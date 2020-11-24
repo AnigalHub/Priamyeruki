@@ -42,12 +42,16 @@
                         alt: "Вывеска",
                     },
                     {
-                        src: "./images/portfolio_7.jpg",
-                        alt: "Подарочные_коробки",
+                        src: "./images/portfolio_12.png",
+                        alt: "Коробочки_для камней",
                     },
                     {
                         src: "./images/portfolio_8.png",
                         alt: "Коробочка",
+                    },
+                    {
+                        src: "./images/portfolio_7.jpg",
+                        alt: "Подарочные_коробки",
                     },
                     {
                         src: "./images/portfolio_9.png",
@@ -60,10 +64,6 @@
                     {
                         src: "./images/portfolio_11.png",
                         alt: "Шкатулка",
-                    },
-                    {
-                        src: "./images/portfolio_12.png",
-                        alt: "Коробочки_для камней",
                     },
                     {
                         src: "./images/portfolio_13.jpg",
@@ -81,11 +81,6 @@
                         src: "./images/portfolio_16.jpg",
                         alt: "Чистый_корпус_лопаты",
                     },
-                    {
-                        src: "./images/portfolio_17.jpg",
-                        alt: "Мотоцикл",
-                    },
-
                 ],
             }
         }
