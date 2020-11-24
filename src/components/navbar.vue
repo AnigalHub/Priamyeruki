@@ -48,10 +48,13 @@
         padding-right: 0.5rem !important;
         padding-left: 0.5rem !important;
         font-weight: 600 !important;
-        font-size: 1.15rem !important;
+        font-size: 1.2rem !important;
         font-family: 'Tenor Sans', sans-serif;
         background: none !important;
         border: none !important;
+    }
+    .nav-link:hover{
+        text-decoration: underline !important;
     }
     .dropdown-item {
         color: #152534 !important;
@@ -77,16 +80,16 @@
        .nav-link,.dropdown-item {
             font-size: 0.8rem !important;
         }
+       .nav-link:hover{
+           background:  rgba(240, 240, 240, 0.97) !important;
+           text-decoration: none !important;
+       }
         .dropdown-toggle{
             font-size: 0.85rem !important;
         }
         .nav-link,.dropdown-item,.dropdown-toggle{
             padding: 0.2rem 0.1rem !important;
             white-space:  normal !important;
-        }
-        #navbar-toggle-collapse .nav-link {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
         }
         .nav-link,.dropdown-item{
             border-radius: 4px !important;
@@ -95,13 +98,8 @@
             border: none !important;
             margin: 0.3rem 0 0 !important;
         }
-        .navbar-toggler {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
-        }
-        .dropdown-item{
-            background: radial-gradient(90% 70%, #ffffff, rgb(235, 231, 236)) !important;
-            border: 0.4px solid rgba(75, 105, 119, 0.66) !important;
+        .dropdown-item {
+            border: none !important;
         }
         .btn-group {
             display: block !important;
@@ -117,30 +115,24 @@
         .dropdown-toggle{
             font-size: 0.95rem !important;
         }
+        .nav-link:hover{
+            background:  rgba(240, 240, 240, 0.97) !important;
+            text-decoration: none !important;
+        }
         .nav-link,.dropdown-item,.dropdown-toggle{
             padding: 0.2rem 0.2rem !important;
             white-space:  normal !important;
-        }
-        #navbar-toggle-collapse  .nav-link {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
         }
         .nav-link,.dropdown-item{
             border-radius: 4px !important;
         }
         .dropdown-menu{
             border: none !important;
-            margin: 0.3rem 0 0 !important;
+            margin: 0.3rem 1.5rem 0 !important;
         }
-        .navbar-toggler {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
+        .dropdown-item {
+            border: none !important;
         }
-        .dropdown-item{
-            background: radial-gradient(90% 70%, #ffffff, rgb(235, 231, 236)) !important;
-            border: 0.4px solid rgba(75, 105, 119, 0.66) !important;
-        }
-
         .btn-group {
             display: block !important;
         }
@@ -153,17 +145,17 @@
             padding-bottom: 2%;
         }
         .nav-link,.dropdown-item{
-            font-size: 1rem !important;
+            font-size: 1.15rem !important;
+        }
+        .nav-link:hover{
+            background:  rgba(240, 240, 240, 0.97) !important;
+            text-decoration: none !important;
         }
         .dropdown-toggle{
             font-size: 1rem !important;
         }
         .nav-link,.dropdown-item,.dropdown-toggle{
             white-space:  normal !important;
-        }
-        #navbar-toggle-collapse  .nav-link {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
         }
         .nav-link,.dropdown-item{
             border-radius: 4px !important;
@@ -172,13 +164,8 @@
             border: none !important;
             margin: 0.3rem 0 0 !important;
         }
-        .navbar-toggler {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
-        }
-        .dropdown-item{
-            background: radial-gradient(90% 70%, #ffffff, rgb(235, 231, 236)) !important;
-            border: 0.4px solid rgba(75, 105, 119, 0.66) !important;
+        .dropdown-item {
+            border: none !important;
         }
         .btn-group {
             display: block !important;
@@ -192,7 +179,11 @@
             padding-bottom: 2%;
         }
         .nav-link,.dropdown-item{
-            font-size: 1rem !important;
+            font-size: 1.2rem !important;
+        }
+        .nav-link:hover{
+            background:  rgba(240, 240, 240, 0.97) !important;
+            text-decoration: none !important;
         }
         .dropdown-toggle{
             font-size: 1.1rem !important;
@@ -200,24 +191,15 @@
         .nav-link,.dropdown-item,.dropdown-toggle{
             white-space:  normal !important;
         }
-        #navbar-toggle-collapse  .nav-link {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
-        }
         .nav-link,.dropdown-item{
             border-radius: 4px !important;
+        }
+        .dropdown-item {
+            border: none !important;
         }
         .dropdown-menu{
             border: none !important;
             margin: 0.3rem 0 0 !important;
-        }
-        .navbar-toggler {
-            background: radial-gradient(90% 70%, #ffffff, rgb(241, 237, 242));
-            border: 0.9px solid rgba(75, 105, 119, 0.66) !important;
-        }
-        .dropdown-item{
-            background: radial-gradient(90% 70%, #ffffff, rgb(235, 231, 236)) !important;
-            border: 0.4px solid rgba(75, 105, 119, 0.66) !important;
         }
         .btn-group {
             display: block !important;
@@ -243,7 +225,7 @@
         padding-right: 0.8rem !important;
         padding-left: 0.8rem !important;
         font-weight: 600;
-        font-size: 1.15rem ;
+        font-size: 1.25rem ;
         font-family: 'Tenor Sans', sans-serif;
     }
     .nav-link:hover{
