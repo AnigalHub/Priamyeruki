@@ -3,27 +3,22 @@
         <b-container>
             <h2>Контакты</h2>
             <div class="text">
-               <b>ООО «Аваконт»</b>
-                <br>
-               <b>Телефон:</b>
-                <a :href=" link_phone"> {{phone}}</a>
-                <br>
-                <b>Почта:</b>
-                    <a :href="link_mail">{{mail}}</a>
-                <br>
-               <b>Часы работы:</b>  {{working_hours}}
+               <b>ООО «Аваконт»</b><br>
+               <b>Телефон:</b><a :href="'tel:' + phone"> {{phone}}</a><br>
+                <b>Почта:</b><a :href="'mailto:'+ mail">{{mail}}</a><br>
+               <b>Часы работы:</b>{{working_hours}}
             </div>
             <b-row>
                 <b-col>
                     <div class="text">
-                       <b><u>Адрес офиса продаж:</u></b>  140054, Московская обл., г. Котельники, терр. Новорязанское шоссе,
-                        дом 6, офис 9-10, этаж 2
+                       <b><u>Адрес офиса продаж:</u></b>
+                        {{sales_office_address}}
                     </div>
                 </b-col>
                 <b-col>
                     <div class="text">
-                        <b><u>Адрес производства:</u></b>  140015, Московская обл., г. Люберцы, Инициативная ул., дом 34А,
-                        объект 3, офис 5.
+                        <b><u>Адрес производства:</u></b>
+                        {{manufacturers_address}}
                     </div>
                 </b-col>
             </b-row>
@@ -35,15 +30,20 @@
 </template>
 
 <script>
+    import manufacturers_address from '../../public/documents/address/manufacturers_address';
+    import sales_office_address from '../../public/documents/address/sales_office_address.json';
+    import phone from '../../public/documents/address/phone.json';
+    import mail from '../../public/documents/address/mail.json';
+    import working_hours from '../../public/documents/address/working_hours.json';
     export default {
         name: "contacts",
         data(){
             return {
-                working_hours:'Пн. – Пт.: с 9:00 до 18:00',
-                phone:'+7 (495) 369-26-73',
-                link_phone:'tel:+74953692673',
-                mail:'priamyeruki@mail.ru',
-                link_mail:'mailto:priamyeruki@mail.ru'
+                manufacturers_address: manufacturers_address,
+                sales_office_address:sales_office_address,
+                phone:phone,
+                working_hours:working_hours,
+                mail:mail,
             }
         }
     }
