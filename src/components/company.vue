@@ -137,7 +137,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-
     .flex-container > div {
         width: 18%;
         margin: 0 0.5% 1% 0.5% !important;
@@ -149,9 +148,6 @@
         display: flex;
         align-items: center;
     }
-   .col-6{
-       margin-bottom: 2%;
-   }
     svg{
         width: 150px;
         height: 100px;
@@ -160,10 +156,6 @@
         margin-right: auto;
     }
     @media screen and (max-width: 500px) {
-            .col-5{
-                margin-left: auto;
-                margin-right: auto;
-            }
             svg{
                 width: 50px;
                 height: 50px;
@@ -178,22 +170,12 @@
 
     }
     @media screen and (min-width: 500px)and (max-width: 768px) {
-
-            .col-5{
-                margin-left: auto;
-                margin-right: auto;
-            }
             svg{
                 width: 75px;
                 height: 75px;
             }
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
-
-            .col-5{
-                margin-left: auto;
-                margin-right: auto;
-            }
             svg{
                 width: 85px;
                 height: 85px;
