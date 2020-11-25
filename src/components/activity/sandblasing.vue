@@ -70,7 +70,7 @@
 </template>
 
 <script>
-    import  pricelist_sandblasting from '../../../public/documents/pricelist_sandblasting';
+    import  pricelist_sandblasting from '../../../public/documents/sandblasting/pricelist_sandblasting.json';
     export default {
         name: "sandblasing",
         data() {

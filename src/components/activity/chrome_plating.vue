@@ -47,27 +47,25 @@
                 Такая технология защищает любую поверхность не один десяток лет без ощутимых потерь для
                 внешнего вида. А значить ваша вещь будит радовать Вас долгие годы.
             </div>
-            <p class="price">
-                Стоимость химической металлизации зависит от площади поверхности детали. Точная цена на Ваш
-                заказ рассчитывается из расходных материалов на покрытие хромом и финишных работ над
-                изделием.
-            </p>
-            <p class="price">
-                Цена за <b> 1 дм² </b> от <b> 190 руб </b>. Точную информацию по Вашей заявке уточняйте с помощью
-                формы обратной связи или по телефону.
-            </p>
+            <p class="price">{{price_description}}</p>
+            <p class="price" v-html="price_chrome"></p>
         </b-container>
 
     </div>
 </template>
 
 <script>
+    import  price_chrome from '../../../public/documents/chrome/price_chrome.json';
+    import  price_description from '../../../public/documents/chrome/price_description.json';
     import Service from "../Service"
+    import price_aquaprint from "../../../public/documents/aquaprint/price_aquaprint.json";
     export default {
         name: "chrome_plating",
         components: {Service},
         data() {
             return {
+                price_chrome:price_chrome,
+                price_description:price_description,
                 StepsService: [
                     {
                         name_service: 'Подготовка, обжиг детали для достижения гидрофильных свойств, грунтование и химическое обезжиривание при\n' +

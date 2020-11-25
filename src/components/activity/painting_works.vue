@@ -53,8 +53,8 @@
 
 <script>
     import Service from "../Service";
-    import  pricelist__painting_works from '../../../public/documents/pricelist_painting_works';
-    import  pricelist__painting_works_2 from '../../../public/documents/pricelist_painting_works_2';
+    import  pricelist__painting_works from '../../../public/documents/painting_works/pricelist_painting_works.json';
+    import  pricelist__painting_works_2 from '../../../public/documents/painting_works/pricelist_painting_works_2.json';
     export default {
         name: "painting_works",
         components: {Service},

@@ -42,27 +42,23 @@
                          :img_service="service.img_service">
                 </service>
             </div>
-            <p class="price">
-                Стоимость аквапечати по готовым образцам (подобранная текстура и тонн) составляет от <b>5 руб/см²</b> .
-                В стоимость работ включены: выравнивание рельефа, удаление не заводского покрытия, удаление
-                трещин на лаке, покраска лаком, нанесение текстуры и полировка.
-            </p>
-            <p class="price">
-                Стоимость нанесения иммерсионной пленки может быть выше указанной при подборе текстуры и
-                тонна иммерсионной пленки и сборочно-разборочных работ. Для уточнения окончательной стоимости
-                аквапечати просим Вас задать вопросы специалисту компании.
-            </p>
+            <p class="price" v-html="price_aquaprint"></p>
+            <p class="price">{{price_description}}</p>
         </b-container>
     </div>
 </template>
 
 <script>
     import Service from "../Service"
+    import  price_aquaprint from '../../../public/documents/aquaprint/price_aquaprint.json';
+    import  price_description from '../../../public/documents/aquaprint/price_description.json';
     export default {
         name: "aquaprint",
         components: {Service},
         data() {
             return {
+                price_aquaprint:price_aquaprint,
+                price_description:price_description,
                 StepsService: [
                     {
                         name_service: 'Подготовка поверхности изделия',

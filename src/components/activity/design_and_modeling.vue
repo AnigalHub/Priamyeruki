@@ -52,21 +52,20 @@
                          :img_service="service.img_service">
                 </service>
             </div>
-            <div class="price">
-                Стоимость проектирования и моделирования Вашей задачи зависит от вашего запроса, уточняйте
-                информацию с  помощью обратной связи.
-            </div>
+            <p class="price">{{price_description}}</p>
         </b-container>
     </div>
 </template>
 
 <script>
+    import  price_description from '../../../public/documents/design_and_modeling/price_description.json';
     import Service from "../Service"
     export default {
         name: "design_and_modeling",
         components: {Service},
         data() {
             return {
+                price_description:price_description,
                 StepsService: [
                     {
                         name_service: 'Определяем потребности Заказчика и составляем техническое задание',
