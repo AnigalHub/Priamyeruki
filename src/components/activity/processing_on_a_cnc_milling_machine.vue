@@ -66,14 +66,14 @@
 </template>
 
 <script>
-    import  pricelist_wood from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_wood.json';
-    import  pricelist_plywood from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_plywood.json';
-    import  pricelist_dsp from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_dsp.json';
-    import  pricelist_composite from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_composite.json';
-    import  pricelist_pvc from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_pvc.json';
-    import  pricelist_polycarbonate from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_polycarbonate.json';
-    import  pricelist_polystyrene from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_polystyrene.json';
-    import  pricelist_aluminum from '../../../public/documents/processing_on_a_cnc_milling_machine/pricelist_aluminum.json';
+    import  pricelist_wood from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_wood.json';
+    import  pricelist_plywood from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_plywood.json';
+    import  pricelist_dsp from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_dsp.json';
+    import  pricelist_composite from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_composite.json';
+    import  pricelist_pvc from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_pvc.json';
+    import  pricelist_polycarbonate from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_polycarbonate.json';
+    import  pricelist_polystyrene from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_polystyrene.json';
+    import  pricelist_aluminum from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_aluminum.json';
     import Service from "../Service"
     export default {
         name: "processing_onPa_cnc_milling_machine",

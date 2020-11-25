@@ -58,7 +58,7 @@
 </template>
 
 <script>
-    import  price_description from '../../../public/documents/design_and_modeling/price_description.json';
+    import  price_description from '../../../public/documents/prices/design_and_modeling/price_description.json';
     import Service from "../Service"
     export default {
         name: "design_and_modeling",

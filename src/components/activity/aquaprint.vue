@@ -50,8 +50,8 @@
 
 <script>
     import Service from "../Service"
-    import  price_aquaprint from '../../../public/documents/aquaprint/price_aquaprint.json';
-    import  price_description from '../../../public/documents/aquaprint/price_description.json';
+    import  price_aquaprint from '../../../public/documents/prices/aquaprint/price_aquaprint.json';
+    import  price_description from '../../../public/documents/prices/aquaprint/price_description.json';
     export default {
         name: "aquaprint",
         components: {Service},

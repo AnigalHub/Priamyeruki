@@ -48,7 +48,7 @@
 
 <script>
     import Service from "../Service";
-    import  pricelist__UV_printer from '../../../public/documents/UV_printer/pricelist_UV_printer.json';
+    import  pricelist__UV_printer from '../../../public/documents/prices/UV_printer/pricelist_UV_printer.json';
     export default {
         name: "drawing_with_a_UV_printer",
         components: {Service},

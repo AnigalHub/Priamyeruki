@@ -62,7 +62,7 @@
 
 <script>
     import Service from "../Service";
-    import  pricelist_laser from '../../../public/documents/laser/pricelist_laser.json';
+    import  pricelist_laser from '../../../public/documents/prices/laser/pricelist_laser.json';
     export default {
         name: "laser_engraving",
         components: {Service},

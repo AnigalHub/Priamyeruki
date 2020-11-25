@@ -55,10 +55,10 @@
 </template>
 
 <script>
-    import  price_chrome from '../../../public/documents/chrome/price_chrome.json';
-    import  price_description from '../../../public/documents/chrome/price_description.json';
+    import  price_chrome from '../../../public/documents/prices/chrome/price_chrome.json';
+    import  price_description from '../../../public/documents/prices/chrome/price_description.json';
     import Service from "../Service"
-    import price_aquaprint from "../../../public/documents/aquaprint/price_aquaprint.json";
+    import price_aquaprint from "../../../public/documents/prices/aquaprint/price_aquaprint.json";
     export default {
         name: "chrome_plating",
         components: {Service},
