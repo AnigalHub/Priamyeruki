@@ -23,7 +23,7 @@
 
 <style scoped lang="scss">
     #background{
-       background-color: rgba(0, 0, 0, 0.45);
+       background-color: rgba(0, 0, 0, 0.35);
        padding: 6.9% 0 6.9% 0;
        border-bottom: 2px solid #152534;
     }
@@ -46,13 +46,13 @@
     button{
         width: 45%;
         background: radial-gradient(50% 70%, #ffffff, rgb(160, 156, 161));
-        border: none !important;
+        border: 2px solid white !important;
         border-radius: 7px;
         margin-top: 6%;
         font-weight: 700;
         color: #193647;
-        margin-left: 1% !important;
-        margin-right: 1% !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
         padding: 0.8%;
         font-size: 1.3rem;
     }
