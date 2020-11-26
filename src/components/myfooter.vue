@@ -2,30 +2,11 @@
     <div class="myfooter">
         <b-container>
             <b-row>
-                <b-col>
-                    <router-link to="/company">
-                        О нас
-                    </router-link>
-                    <br><br>
-                    <router-link to="/equipment">
-                        Оборудование
-                    </router-link>
-                </b-col>
-                <b-col>
-                    <router-link to="/activity">
-                        Услуги
-                    </router-link>
-                    <br><br>
-                    <router-link to="/samples_of_work">
-                        Образцы работ
-                    </router-link>
-                </b-col>
-                <b-col>
-                    Отзывы
-                    <br><br>
-                    <router-link to="/contacts">
-                        Контакты
-                    </router-link>
+                <b-col v-for="(page_catalog,index) in catalog_pages" :key="index">
+                    <div v-for="(value, index) in page_catalog.pages" :key="index">
+                        <router-link  :to="value.link">{{value.page}}</router-link>
+                        <br><br>
+                    </div>
                 </b-col>
                 <b-col>
                     {{manufacturers_address}}
@@ -42,6 +23,44 @@
         data(){
             return{
                 manufacturers_address:manufacturers_address,
+                catalog_pages:[
+                    {
+                        pages:[
+                            {
+                                link: "/company",
+                                page: "О нас",
+                            },
+                            {
+                                link: "/equipment",
+                                page: "Оборудование",
+                            },
+                        ],
+                    },
+                    {
+                        pages:[
+                            {
+                                link: "/activity",
+                                page: "Услуги",
+                            },
+                            {
+                                link: "/samples_of_work",
+                                page: "Образцы работ",
+                            },
+                        ],
+                    },
+                    {
+                        pages:[
+                            {
+                                link: "/contacts",
+                                page: "Отзывы",
+                            },
+                            {
+                                link: "/contacts",
+                                page: "Контакты",
+                            },
+                        ],
+                    },
+                ]
             }
         }
     }
