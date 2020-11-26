@@ -40,13 +40,9 @@
             </div>
             <h4>Прайс-лист:</h4>
             <b-table  hover :items="pricelist__painting_works"></b-table>
-            <p class="additional_information">
-                В каждом случае стоимость работы обсуждается индивидуально.
-            </p>
+            <p class="additional_information">{{price_description}}</p>
             <b-table  hover :items="pricelist__painting_works_2"></b-table>
-            <p class="additional_information">
-                Окраска детали с двух сторон +20% к стоимости окраски детали.
-            </p>
+            <p class="additional_information">{{price_description_2}}</p>
         </b-container>
     </div>
 </template>
@@ -54,14 +50,18 @@
 <script>
     import Service from "../Service";
     import  pricelist__painting_works from '../../../public/documents/prices/painting_works/pricelist_painting_works.json';
+    import  price_description from '../../../public/documents/prices/painting_works/price_description.json';
     import  pricelist__painting_works_2 from '../../../public/documents/prices/painting_works/pricelist_painting_works_2.json';
+    import  price_description_2 from '../../../public/documents/prices/painting_works/price_description2.json';
     export default {
         name: "painting_works",
         components: {Service},
         data() {
             return {
                 pricelist__painting_works: pricelist__painting_works,
+                price_description:price_description,
                 pricelist__painting_works_2: pricelist__painting_works_2,
+                price_description_2:price_description_2,
                 StepsService: [
                     {
                         name_service: 'Демонтаж детали',

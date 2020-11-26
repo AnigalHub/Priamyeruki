@@ -39,7 +39,7 @@
             </div>
             <h4>Прайс-лист:</h4>
             <p class="additional_information">
-                Начальные расходы: 1000 рублей
+                {{price_description}}
             </p>
             <b-table  hover :items="pricelist__UV_printer"></b-table>
         </b-container>
@@ -48,6 +48,7 @@
 
 <script>
     import Service from "../Service";
+    import  price_description from '../../../public/documents/prices/UV_printer/price_description.json';
     import  pricelist__UV_printer from '../../../public/documents/prices/UV_printer/pricelist_UV_printer.json';
     export default {
         name: "drawing_with_a_UV_printer",
@@ -55,6 +56,7 @@
         data() {
             return {
                 pricelist__UV_printer: pricelist__UV_printer,
+                price_description:price_description,
                 StepsService: [
                     {
                         name_service: 'Очистка места нанесения рисунка',
