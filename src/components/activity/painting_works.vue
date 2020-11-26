@@ -16,23 +16,11 @@
                        <u>Наш цех состоит из нескольких отделений:</u>
                     </p>
                     <ul class="text">
-                        <li>
-                            <b> производственный участок </b> – территория цеха,
-                            где происходит окраска любой конструкции;
-                        </li>
-                        <li>
-                            <b> сушильная камера </b> – территория для просушки
-                            окрашенной поверхности после окраски;
-                        </li>
-                        <li>
-                            <b> склад  </b> – территория, где хранятся  все инструменты и материалы,
-                            которые применяются в ходе работы.
-                        </li>
+                        <li v-for="(paragraph, index) in  list_shop" :key="index" v-html="paragraph"></li>
                     </ul>
                 </b-col>
             </b-row>
-            <h4 class="text_after_video">
-                Этапы технологического процесса:</h4>
+            <h4 class="text_after_video">Этапы технологического процесса:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
                 <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
                          :img_service="service.img_service">
@@ -62,6 +50,11 @@
                 price_description:price_description,
                 pricelist__painting_works_2: pricelist__painting_works_2,
                 price_description_2:price_description_2,
+                list_shop:[
+                    ' <b> производственный участок </b> – территория цеха, где происходит окраска любой конструкции;',
+                    '<b> сушильная камера </b> – территория для просушки окрашенной поверхности после окраски;',
+                    '<b> склад  </b> – территория, где хранятся  все инструменты и материалы, которые применяются в ходе работы.',
+                ],
                 StepsService: [
                     {
                         name_service: 'Демонтаж детали',
