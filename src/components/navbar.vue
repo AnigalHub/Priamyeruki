@@ -1,7 +1,7 @@
 <template>
     <b-navbar class="navbar-expand-xl sticky-top " toggleable>
         <b-container>
-            <b-navbar-brand to="/" @click="GoToLanding()">
+            <b-navbar-brand to="/">
                 <img src="../../public/images/hands.jpg"  style="float: left"/>
                 <div class="name_company">Аваконт</div>
             </b-navbar-brand>
