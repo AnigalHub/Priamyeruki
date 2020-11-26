@@ -16,7 +16,7 @@
                     <b><u>Адрес производства:</u></b>{{manufacturers_address}}
                 </b-col>
             </b-row>
-            <div class="feature map" id="map-wrap">
+            <div class="feature map">
                 <iframe :src="map"></iframe>
             </div>
         </b-container>
