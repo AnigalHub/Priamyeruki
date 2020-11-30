@@ -8,21 +8,19 @@
                         <br><br>
                     </div>
                 </b-col>
-                <b-col>
-                    {{manufacturers_address}}
-                </b-col>
+                <b-col>{{address.manufacturers_address}}</b-col>
             </b-row>
         </b-container>
     </div>
 </template>
 
 <script>
-    import manufacturers_address from '../../public/documents/address/manufacturers_address.json';
+    import address from '../../public/documents/address.json';
     export default {
         name: "myfooter",
         data(){
             return{
-                manufacturers_address:manufacturers_address,
+                address:address,
                 catalog_pages:[
                     {
                         pages:[
