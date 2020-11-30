@@ -1,17 +1,17 @@
 <template>
     <div id="mymap">
         <div class="feature map">
-            <iframe :src="map"></iframe>
+            <iframe :src="address.map"></iframe>
         </div>
     </div>
 </template>
 <script>
-    import map from './../../../public/documents/address/map.json';
+    import address from './../../../public/documents/address.json';
     export default {
         name: "mymap",
         data(){
             return{
-                map:map,
+                address:address,
             }
         }
     }
