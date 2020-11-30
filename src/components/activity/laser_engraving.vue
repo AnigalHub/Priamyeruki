@@ -26,7 +26,7 @@
                     что создает полное слияние с изделием.
                     </p>
                     <p class="text">
-                        Такой <u> метод </u>
+                    Такой <u> метод </u>
                     работы с материалом является <u>бесконтактным</u>,
                     благодаря чему удается достичь высокой скорости
                     работы и безупречного качества нанесенных
@@ -53,9 +53,7 @@
             </div>
             <h4>Прайс-лист:</h4>
             <b-table  hover :items="pricelist_laser"></b-table>
-            <p class="additional_information">
-               {{price_description}}
-            </p>
+            <p class="additional_information">{{price_description}}</p>
         </b-container>
     </div>
 </template>

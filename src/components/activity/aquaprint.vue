@@ -19,9 +19,8 @@
                         многие другие окрасы.
                     </p>
                     <p class="text">
-                        <u>Аквапринт позволяет
-                        декорировать детали, даже самой сложной формы с
-                            любым радиусом искривления: </u> электроника, бытовая техника, мебель,
+                        <u>Аквапринт позволяет декорировать детали, даже самой сложной формы с
+                         любым радиусом искривления: </u> электроника, бытовая техника, мебель,
                         мобильные телефоны и аксессуары, автомобили, предметы интерьера и другие виды
                         продукции.
                     </p>
@@ -42,22 +41,22 @@
                          :img_service="service.img_service">
                 </service>
             </div>
-            <p class="price" v-html="price_aquaprint"></p>
-            <p class="price">{{price_description}}</p>
+            <p class="price" v-html="aqua.price"></p>
+            <p class="price">{{aqua.descr}}</p>
         </b-container>
     </div>
 </template>
 
 <script>
     import Service from "../Service"
-    import  price_aquaprint from '../../../public/documents/prices/aquaprint/price_aquaprint.json';
+    import aqua from '../../../public/documents/prices/aquaprint/price_aquaprint.json';
     import  price_description from '../../../public/documents/prices/aquaprint/price_description.json';
     export default {
         name: "aquaprint",
         components: {Service},
         data() {
             return {
-                price_aquaprint:price_aquaprint,
+                aqua:aqua,
                 price_description:price_description,
                 StepsService: [
                     {
