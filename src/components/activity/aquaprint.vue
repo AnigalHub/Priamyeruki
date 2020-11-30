@@ -41,23 +41,21 @@
                          :img_service="service.img_service">
                 </service>
             </div>
-            <p class="price" v-html="aqua.price"></p>
-            <p class="price">{{aqua.descr}}</p>
+            <p class="price" v-html="aquaprint.price"></p>
+            <p class="price">{{aquaprint.description}}</p>
         </b-container>
     </div>
 </template>
 
 <script>
     import Service from "../Service"
-    import aqua from '../../../public/documents/prices/aquaprint/price_aquaprint.json';
-    import  price_description from '../../../public/documents/prices/aquaprint/price_description.json';
+    import aquaprint from '../../../public/documents/prices/aquaprint/price_aquaprint.json';
     export default {
         name: "aquaprint",
         components: {Service},
         data() {
             return {
-                aqua:aqua,
-                price_description:price_description,
+                aquaprint:aquaprint,
                 StepsService: [
                     {
                         name_service: 'Подготовка поверхности изделия',
