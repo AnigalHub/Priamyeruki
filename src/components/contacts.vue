@@ -4,42 +4,33 @@
             <h2>Контакты</h2>
             <div class="text">
                <b>ООО «Аваконт»</b><br>
-               <b>Телефон:</b><a :href="'tel:' + phone"> {{phone}}</a><br>
-                <b>Почта:</b><a :href="'mailto:'+ mail">{{mail}}</a><br>
-               <b>Часы работы:</b>{{working_hours}}
+               <b>Телефон:</b><a :href="'tel:' + address.phone"> {{address.phone}}</a><br>
+                <b>Почта:</b><a :href="'mailto:'+ address.mail">{{address.mail}}</a><br>
+               <b>Часы работы:</b>{{address.working_hours}}
             </div>
             <b-row>
                 <b-col class="text">
-                   <b><u>Адрес офиса продаж:</u></b>{{sales_office_address}}
+                   <b><u>Адрес офиса продаж:</u></b>{{address.sales_office_address}}
                 </b-col>
                 <b-col class="text">
-                    <b><u>Адрес производства:</u></b>{{manufacturers_address}}
+                    <b><u>Адрес производства:</u></b>{{address.manufacturers_address}}
                 </b-col>
             </b-row>
             <div class="feature map">
-                <iframe :src="map"></iframe>
+                <iframe :src="address.map"></iframe>
             </div>
         </b-container>
     </div>
 </template>
 
 <script>
-    import manufacturers_address from '../../public/documents/address/manufacturers_address';
-    import sales_office_address from '../../public/documents/address/sales_office_address.json';
-    import phone from '../../public/documents/address/phone.json';
-    import mail from '../../public/documents/address/mail.json';
-    import working_hours from '../../public/documents/address/working_hours.json';
-    import map from './../../public/documents/address/map.json';
+    import address from '../../public/documents/address';
+
     export default {
         name: "contacts",
         data(){
             return {
-                manufacturers_address: manufacturers_address,
-                sales_office_address:sales_office_address,
-                phone:phone,
-                working_hours:working_hours,
-                mail:mail,
-                map:map,
+               address: address,
             }
         }
     }
