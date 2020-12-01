@@ -37,25 +37,21 @@
                 </service>
             </div>
             <h4>Прайс-лист:</h4>
-            <p class="additional_information">
-                {{price_description}}
-            </p>
-            <b-table  hover :items="pricelist__UV_printer"></b-table>
+            <p class="text">{{UV.description}}</p>
+            <b-table  hover :items="UV.price_table"></b-table>
         </b-container>
     </div>
 </template>
 
 <script>
     import Service from "../Service";
-    import  price_description from '../../../public/documents/prices/UV_printer/price_description.json';
-    import  pricelist__UV_printer from '../../../public/documents/prices/UV_printer/pricelist_UV_printer.json';
+    import  UV from '../../../public/documents/prices/UV_printer/price_UV_printer.json';
     export default {
         name: "drawing_with_a_UV_printer",
         components: {Service},
         data() {
             return {
-                pricelist__UV_printer: pricelist__UV_printer,
-                price_description:price_description,
+                UV: UV,
                 StepsService: [
                     {
                         name_service: 'Очистка места нанесения рисунка',
