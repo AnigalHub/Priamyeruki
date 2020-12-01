@@ -52,23 +52,21 @@
                 </service>
             </div>
             <h4>Прайс-лист:</h4>
-            <b-table  hover :items="pricelist_laser"></b-table>
-            <p class="additional_information">{{price_description}}</p>
+            <b-table  hover :items="laser.price_table"></b-table>
+            <p class="text">{{laser.description}}</p>
         </b-container>
     </div>
 </template>
 
 <script>
     import Service from "../Service";
-    import  pricelist_laser from '../../../public/documents/prices/laser/pricelist_laser.json';
-    import  price_description from '../../../public/documents/prices/laser/price_description.json';
+    import laser from '../../../public/documents/prices/laser/price_laser.json';
     export default {
         name: "laser_engraving",
         components: {Service},
         data() {
             return {
-                pricelist_laser: pricelist_laser,
-                price_description:price_description,
+                laser: laser,
                 StepsService: [
                     {
                         name_service: 'Создание эскиза',
