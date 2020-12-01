@@ -144,9 +144,6 @@
     font-weight: 500;
     font-size: 1.25rem;
   }
-  td:first-child{
-    font-weight: 800 !important;
-  }
   .col-2 {
     flex: 0 0 12% !important;
     max-width: 12% !important;
