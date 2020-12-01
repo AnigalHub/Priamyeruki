@@ -94,7 +94,7 @@
   #contacts,  #company, #samples{
       padding-bottom: 2.5%;
   }
-  .price,.additional_information{
+  .price{
     padding-top: 0.1%;
     color: #152534;
     font-size: 1.25rem;
