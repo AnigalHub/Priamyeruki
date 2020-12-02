@@ -40,20 +40,20 @@
                          :img_service="service.img_service">
                 </service>
             </div>
-            <p class="price">{{price_description}}</p>
+            <p class="price">{{modeling.price}}</p>
         </b-container>
     </div>
 </template>
 
 <script>
-    import  price_description from '../../../public/documents/prices/design_and_modeling/price_description.json';
+    import  modeling from '../../../public/documents/prices/design_and_modeling/price_modeling.json';
     import Service from "../Service"
     export default {
         name: "design_and_modeling",
         components: {Service},
         data() {
             return {
-                price_description:price_description,
+                modeling:modeling,
                 complex_solutions:[
                     '<u> SolidWorks </u> (программный комплекс САПР для автоматизации работ промышленного предприятия на этапах ' +
                     'конструкторской и технологической подготовки производства);</li>',

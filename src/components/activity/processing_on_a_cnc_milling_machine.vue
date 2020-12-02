@@ -53,10 +53,10 @@
             <h4>Прайс-лист:</h4>
             <b-card no-body>
                 <b-tabs card>
-                    <b-tab v-for="(tab, index) in tabs" :key="index" :title="tab.name">
+                    <b-tab v-for="(tab, index) in cnc.table" :key="index" :title="tab.material">
                         <b-card-text>
-                            <h5>{{tab.name}}</h5>
-                            <b-table  hover :items="tab.pricelist"></b-table>
+                            <h5>{{tab.material}}</h5>
+                            <b-table  hover :items="tab.price_table"></b-table>
                         </b-card-text>
                     </b-tab>
                 </b-tabs>
@@ -66,63 +66,14 @@
 </template>
 
 <script>
-    import  pricelist_wood from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_wood.json';
-    import  pricelist_plywood from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_plywood.json';
-    import  pricelist_dsp from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_dsp.json';
-    import  pricelist_composite from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_composite.json';
-    import  pricelist_pvc from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_pvc.json';
-    import  pricelist_polycarbonate from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_polycarbonate.json';
-    import  pricelist_polystyrene from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_polystyrene.json';
-    import  pricelist_aluminum from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/pricelist_aluminum.json';
+    import  cnc from '../../../public/documents/prices/processing_on_a_cnc_milling_machine/price_cnc_milling_machine.json';
     import Service from "../Service"
     export default {
         name: "processing_onPa_cnc_milling_machine",
         components: {Service},
         data() {
             return {
-                tabs:[
-                    {
-                        name: "Дерево",
-                        pricelist: pricelist_wood,
-                    },
-                    {
-                        name: "Фанера",
-                        pricelist: pricelist_plywood,
-                    },
-                    {
-                        name: "ДСП",
-                        pricelist:  pricelist_dsp,
-                    },
-                    {
-                        name: "Композит",
-                        pricelist: pricelist_composite,
-                    },
-                    {
-                        name: "ПВХ",
-                        pricelist: pricelist_pvc,
-                    },
-                    {
-                        name: "Поликарбонат",
-                        pricelist:pricelist_polycarbonate,
-                    },
-                    {
-                        name: "Алюминий",
-                        pricelist:pricelist_aluminum,
-                    },
-                    {
-                        name: "Полистирол",
-                        pricelist:pricelist_polystyrene,
-                    },
-
-                ],
-                pricelist_wood: pricelist_wood,
-                pricelist_plywood: pricelist_plywood,
-                pricelist_dsp: pricelist_dsp,
-                pricelist_composite:pricelist_composite,
-                pricelist_pvc:pricelist_pvc,
-                pricelist_polycarbonate:pricelist_polycarbonate,
-                pricelist_polystyrene:pricelist_polystyrene,
-                pricelist_aluminum:pricelist_aluminum,
+                cnc:cnc,
                 StepsService: [
                     {
                         name_service: 'Разработка технического задания (чертеж) и дизайн будущей детали',
@@ -164,12 +115,7 @@
                     },
                 ],
             }
-        },
-        methods:{
-            Test(){
-                console.log(this.pricelist);
-            }
-        },
+        }
     }
 </script>
 <style>
