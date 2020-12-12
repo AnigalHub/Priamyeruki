@@ -26,16 +26,31 @@
 </template>
 
 <script>
+    import axios from 'axios'
+
     export default {
         name: "feedback",
         data(){
             return {
-                feedbackData: {
+                feedback:{
                     userName: '',
                     userPhone: '',
                     userEmail: '',
                     userMessage: '',
                 }
+            }
+        },
+        methods:{
+            SendFeedback(){
+                const url = 'http://127.0.0.1:8000/SendFeedback';
+                axios.post(url, this.feedback)
+                    .then(resp => {
+                        alert(resp.data)
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+                //axios.get(url).then(resp => { alert(resp.data)}).catch(error => { console.log(error) })
             }
         }
     }
