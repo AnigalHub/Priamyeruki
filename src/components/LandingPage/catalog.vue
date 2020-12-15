@@ -33,18 +33,6 @@
                         descr: "Проектирование и моделирование",
                     },
                     {
-                        link: "../chrome_plating",
-                        src: "./images/3.jpg",
-                        alt: "Химическая_металлизация_(хромирование)",
-                        descr: "Химическая металлизация (хромирование)",
-                    },
-                    {
-                        link: "../aquaprint",
-                        src: "./images/4.jpg",
-                        alt: "Аквапринт",
-                        descr: "Аквапринт (иммерсионная печать)",
-                    },
-                    {
                         link: "../sandblasing",
                         src: "./images/5.jpg",
                         alt: "Пескоструйная_обработка",
@@ -61,12 +49,6 @@
                         src: "./images/7.jpg",
                         alt: "Малярно-покрасочные_работы",
                         descr: "Малярно-покрасочные работы",
-                    },
-                    {
-                        link: "../drawing_with_a_UV_printer",
-                        src: "./images/8.jpg",
-                        alt: "Нанесение_графики_на_любые_плоские_поверхности",
-                        descr: "Нанесение графики на любые плоские поверхности",
                     },
                 ]
             }
@@ -88,9 +70,13 @@
     }
     .flex-container > div {
         background: radial-gradient(70% 70%, #ffffff, rgb(196, 192, 197));
-        width: 31.2%;
-        margin: 0 1% 2% 1% !important;
+        width: 30%;
+        margin: 0 1.2% 2.3% 1.2% !important;
         box-shadow: 5px 5px 5px #696969;
+
+        &:nth-child(4){
+            margin-left: 15% !important;
+        }
     }
     .flex-container > div:hover {
         box-shadow:  0 0 9px  7px #1A394B;
@@ -128,6 +114,10 @@
             width: 100%;
             margin: 0 1.5% 5% 1.5% !important;
             box-shadow: 5px 5px 5px #8a8a8a;
+
+            &:nth-child(4){
+                margin: 0 1.5% 5% 1.5% !important;
+            }
         }
         img{
             height: 80px !important;
@@ -153,6 +143,10 @@
             width: 46%;
             margin: 0 1.5% 2.5% 1.5% !important;
             box-shadow: 5px 5px 5px #8a8a8a;
+
+            &:nth-child(4){
+                margin: 0 1.5% 2.5% 1.5% !important;
+            }
         }
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
