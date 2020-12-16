@@ -137,7 +137,7 @@
   .text_light,.text_night{
     font-weight: 500;
     line-height: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
   }
   td,th{
     color: #152534;
@@ -176,13 +176,13 @@
     font-weight: 500 !important;
     letter-spacing: -0.8px;
     text-align: left !important;
-    font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
     padding-top: 1%;
     font-family: 'Lora', serif;
     cursor: default;
   }
   h5{
-    font-size: 1.3rem !important;
+    font-size: 1.25rem !important;
     font-weight: 700 !important;
     letter-spacing: -0.5px;
   }
