@@ -100,7 +100,7 @@
     }
     svg{
         width: 105px;
-        height: 105px;
+        height: 95px;
         display: block;
         margin-left: auto;
         margin-right: auto;
