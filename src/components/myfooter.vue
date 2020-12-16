@@ -8,6 +8,11 @@
                         <br><br>
                     </div>
                 </b-col>
+                <b-col>
+                    <router-link  to="/contacts">Контакты</router-link>
+                    <br><br>
+                    <a :href="'tel:' + address.phone"> {{address.phone}}</a>
+                </b-col>
                 <b-col>{{address.manufacturers_address}}</b-col>
             </b-row>
         </b-container>
@@ -43,18 +48,6 @@
                             {
                                 link: "/samples_of_work",
                                 page: "Образцы работ",
-                            },
-                        ],
-                    },
-                    {
-                        pages:[
-                            {
-                                link: "/contacts",
-                                page: "Отзывы",
-                            },
-                            {
-                                link: "/contacts",
-                                page: "Контакты",
                             },
                         ],
                     },
