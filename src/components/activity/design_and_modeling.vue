@@ -8,24 +8,16 @@
                 задаче. На каждый проект мы составляем техническое задание и формируем список требований
                 клиента, который в любой момент готовы изменить по вашим пожеланиям.
             </p>
-            <b-row class="important_row">
-                <b-col cols="5">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uquWtDIsbDM"
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </b-col>
-                <b-col>
-                    <div class="text">
-                        Инженеры компании ООО «Аваконт» используют два
-                        <u> комплексных решения </u> в процессе проектирования
-                        и моделирования:
-                        <ul>
-                            <li v-for="(solution, index) in  complex_solutions" :key="index" v-html="solution"></li>
-                        </ul>
-                    </div>
-                </b-col>
-            </b-row>
-            <div class="text text_after_video">
+
+            <p class="text">
+                Инженеры компании ООО «Аваконт» используют два
+                <u> комплексных решения </u> в процессе проектирования
+                и моделирования:
+            </p>
+                <ul>
+                    <li class="text" v-for="(solution, index) in  complex_solutions" :key="index" v-html="solution"></li>
+                </ul>
+            <div class="text">
             Изготавливая 3D модель Вашего изделия, мы не просто изображаем Вашу идею, а учитываем:
                 <ul>
                     <li v-for="(detail, index) in  manufacturing_details" :key="index">{{detail}}</li>

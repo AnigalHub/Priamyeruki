@@ -6,21 +6,14 @@
                 Усовершенствованная технология выполнения малярно-покрасочных работ и современное
                 оборудование и материалы для покраски гарантируют Вам самое высокое качество работы.
             </p>
-            <b-row class="important_row">
-                <b-col cols="5">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4DFwsldKwcI"
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </b-col>
-                <b-col>
-                    <p class="text">
-                       <u>Наш цех состоит из нескольких отделений:</u>
-                    </p>
-                    <ul class="text">
-                        <li v-for="(paragraph, index) in  list_shop" :key="index" v-html="paragraph"></li>
-                    </ul>
-                </b-col>
-            </b-row>
-            <h4 class="text_after_video">Этапы технологического процесса:</h4>
+
+            <p class="text">
+                <u>Наш цех состоит из нескольких отделений:</u>
+            </p>
+            <ul class="text">
+                <li v-for="(paragraph, index) in  list_shop" :key="index" v-html="paragraph"></li>
+            </ul>
+            <h4>Этапы технологического процесса:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
                 <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
                          :img_service="service.img_service">
@@ -106,6 +99,9 @@
 </script>
 <style scoped lang="scss">
 
+    ul{
+        margin-bottom: 0 !important;
+    }
     li{
         padding-bottom: 1.8%;
     }
