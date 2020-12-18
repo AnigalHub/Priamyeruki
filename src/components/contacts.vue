@@ -52,7 +52,7 @@
     }
     .feature.map {
         iframe {
-            min-height: 570px;
+            min-height: 700px;
             box-shadow: none !important;
             height: auto;
             width:100%;
@@ -74,6 +74,16 @@
     @media screen and (min-width: 768px)and (max-width: 992px) {
         .row{
             flex-direction: column;
+        }
+    }
+    @media screen and (min-width: 2000px) and (min-height: 992px){
+        .row {
+            flex-direction: column;
+        }
+        .feature.map {
+            iframe {
+                min-height: 1250px;
+            }
         }
     }
 </style>
