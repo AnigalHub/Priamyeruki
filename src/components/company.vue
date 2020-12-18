@@ -167,5 +167,36 @@
         }
     }
 
+    @media screen and (min-width: 2000px) and (min-height: 992px){
+        svg{
+            float: left;
+            height: 130px;
+            margin-left: 0;
+            margin-right: auto;
+            margin-bottom: 0.5% !important;
+        }
+        h6{
+            text-align: left !important;
+            padding-top: 8% !important;
+        }
+        .flex-container > div {
+            width: 50%;
+        }
+    }
+    @media screen and (max-width: 1600px) and (min-height: 992px){
+        svg{
 
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 1.5% !important;
+        }
+
+        .flex-container > div {
+            width: 31.2%;
+            margin-bottom: 5% !important;
+        }
+        .flex-container > div:nth-child(4){
+            margin-left: 15% !important;
+        }
+    }
 </style>
