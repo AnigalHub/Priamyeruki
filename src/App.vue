@@ -56,6 +56,11 @@
     tr td,th {
         text-align: center !important;
     }
+    @media screen and (min-height: 992px){
+      .table td {
+        padding: 0.75rem !important;
+      }
+    }
 </style>
 <style lang="scss">
   @media (min-width: 1200px){
