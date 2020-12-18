@@ -175,9 +175,6 @@
         }
     }
     @media screen and (min-width: 992px)and (max-width: 1200px) {
-        #navbar-toggle-collapse{
-            padding-bottom: 2%;
-        }
         .nav-link,.dropdown-item{
             font-size: 1.2rem !important;
         }
