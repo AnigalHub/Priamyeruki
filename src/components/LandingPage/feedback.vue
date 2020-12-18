@@ -26,7 +26,6 @@
 </template>
 
 <script>
-    import axios from 'axios'
 
     export default {
         name: "feedback",
@@ -42,7 +41,7 @@
         },
         methods:{
             SendFeedback(){
-                const url = 'http://127.0.0.1:8100/SendFeedback';
+                const url = 'http://127.0.0.1:8000/SendFeedback';
                 axios.post(url, this.feedback)
                     .then(resp => {
                         alert(resp.data)
