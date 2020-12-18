@@ -61,6 +61,11 @@
         padding: 0.75rem !important;
       }
     }
+    @media screen and (min-width: 2000px) and (min-height: 992px){
+      .table td {
+        font-size: 1.5rem !important;
+      }
+    }
 </style>
 <style lang="scss">
   @media (min-width: 1200px){
@@ -220,6 +225,24 @@
     }
     100% {
       transform: scale(1);
+    }
+  }
+  @media screen and (min-width: 2000px) and (min-height: 992px){
+    .text,.text_light,.text_night,h5,h6{
+      font-size: 1.4rem !important;
+    }
+    .important_row{
+      flex-direction: column;
+      .col-5 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+      }
+      iframe{
+        height: 285px !important;
+      }
+      ul{
+        margin-bottom: 0 !important;
+      }
     }
   }
   @media screen and (max-width: 380px) {
@@ -397,7 +420,7 @@
     }
     .price,td,th,.text{
       font-size: 1.15rem;
-      line-height: 1.35rem;
+      line-height: 1.45rem;
     }
     .important_row {
       flex-direction: column;
