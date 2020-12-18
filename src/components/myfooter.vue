@@ -79,18 +79,21 @@
             font-size:0.55rem;
             padding: 0 5px !important;
         }
-
     }
     @media screen and (min-width: 500px)and (max-width: 768px) {
         .col{
             font-size:0.8rem;
         }
-
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
         .col{
             font-size: 1rem;
         }
-
+    }
+    @media screen and (min-height: 992px){
+        .myfooter{
+            background: #0d0d1b;
+            padding: 2.25% 0;
+        }
     }
 </style>

@@ -66,7 +66,7 @@
   @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
       max-width: 1180px !important;
-      max-height: 100%;
+      max-height: 100% !important;
     }
   }
   #app{
