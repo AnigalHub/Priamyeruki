@@ -101,7 +101,8 @@
     @media screen and (min-height: 992px){
         .myfooter{
             background: #0d0d1b;
-            padding: 2.5% 0;
+            padding: 2.25% 0;
         }
     }
+
 </style>
