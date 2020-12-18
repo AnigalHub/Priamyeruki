@@ -222,6 +222,12 @@
       transform: scale(1);
     }
   }
+  @media screen and (min-width: 2000px) and (min-height: 992px){
+    .text,.text_light,.text_night,h5,h6{
+      font-size: 1.4rem !important;
+      line-height: 1.65rem !important;
+    }
+  }
   @media screen and (max-width: 380px) {
   td{
       font-size: 0.8rem;
