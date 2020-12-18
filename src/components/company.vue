@@ -115,6 +115,7 @@
     .flex-container {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 2%;
     }
     .flex-container > div {
         width: 18%;
@@ -129,7 +130,7 @@
     }
     svg{
         width: 150px;
-        height: 100px;
+        height: 115px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -160,18 +161,14 @@
                 height: 85px;
             }
     }
-    @media screen and (min-width: 992px)and (max-width: 1200px) {
+
+    @media screen and (min-width: 2000px) and (min-height: 992px){
         svg{
-            width: 95px;
-            height: 95px;
-        }
-    }
-    @media screen and (min-height: 992px){
-        svg{
-            margin-left: 0;
-            margin-right: auto;
             float: left;
             height: 130px;
+            margin-left: 0;
+            margin-right: auto;
+            margin-bottom: 0.5% !important;
         }
         h6{
             text-align: left !important;
@@ -180,4 +177,21 @@
         .flex-container > div {
             width: 50%;
         }
-    }</style>
+    }
+    @media screen and (max-width: 1600px) and (min-height: 992px){
+        svg{
+
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 1.5% !important;
+        }
+
+        .flex-container > div {
+            width: 31.2%;
+            margin-bottom: 5% !important;
+        }
+        .flex-container > div:nth-child(4){
+            margin-left: 15% !important;
+        }
+    }
+</style>
