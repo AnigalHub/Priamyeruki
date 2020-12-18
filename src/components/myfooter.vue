@@ -67,7 +67,6 @@
 <style scoped lang="scss">
     .myfooter{
         background: #0d0d1b;
-        background-size:100% 100%;
         padding: 1.8% 0;
     }
     .col{
@@ -98,6 +97,11 @@
         .col{
             font-size: 1rem;
         }
-
+    }
+    @media screen and (min-height: 992px){
+        .myfooter{
+            background: #0d0d1b;
+            padding: 2.5% 0;
+        }
     }
 </style>
