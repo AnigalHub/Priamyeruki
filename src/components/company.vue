@@ -166,5 +166,20 @@
             height: 95px;
         }
     }
+    @media screen and (min-height: 992px){
+        svg{
+            margin-left: 0;
+            margin-right: auto;
+            float: left;
+            height: 130px;
+        }
+        h6{
+            text-align: left !important;
+           padding-top: 8% !important;
+        }
+        .flex-container > div {
+            width: 50%;
+        }
+    }
 
 </style>
