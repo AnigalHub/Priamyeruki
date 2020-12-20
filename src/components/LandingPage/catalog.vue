@@ -92,7 +92,7 @@
     }
 
     h5{
-        height: 60px;
+        height: 70px;
         padding: 0 0.5%;
         margin-bottom: 0 !important;
         background: radial-gradient(70% 70%, #ffffff, rgb(210, 206, 211));
