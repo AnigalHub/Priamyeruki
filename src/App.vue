@@ -113,7 +113,7 @@
       padding: 1.5%;
       text-indent: 0.8%;
       font-weight: 600;
-      margin-top:1%;
+      margin-top:5%;
   }
   .text,.text_light,.text_night,
   td,th,h3,h5,h6{
