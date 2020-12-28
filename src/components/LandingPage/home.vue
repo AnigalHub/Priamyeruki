@@ -28,7 +28,7 @@
        border-bottom: 2px solid #152534;
     }
     #home{
-        background: url("../../../public/images/bb.jpg") 100% 100% no-repeat;
+        background: url("../../../public/images/background/background.jpg") 100% 100% no-repeat;
         background-attachment: fixed;
         background-position: 100%;
         background-size: 100% ;
@@ -118,7 +118,7 @@
     }
     @media screen and (max-width: 1300px) {
         #home{
-            background: url("../../../public/images/bb2.jpg") 100% 100% no-repeat;
+            background: url("../../../public/images/background/background_double.jpg") 100% 100% no-repeat;
            background-attachment: initial;
            background-position: 100%;
            background-size: 100% 100%;

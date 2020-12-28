@@ -42,7 +42,7 @@
             <h4>Технология пескоструйной обработки в нашем цехе:</h4>
             <b-row class="important_row">
                 <b-col cols="4">
-                    <img src="../../../public/images/sandblasting_2.jpg" alt="Пескоструйная_камера_изнутри"/>
+                    <img src="../../../public/images/sandblasting/sandblasting_2.jpg" alt="Пескоструйная_камера_изнутри"/>
                 </b-col>
                 <b-col class="text">
                    В кабину камеры помещается деталь, специалисты нашей компании
