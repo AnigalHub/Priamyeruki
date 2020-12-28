@@ -81,7 +81,7 @@
         border-top: 2px solid #152534;
     }
     #advantages{
-        background: url("../../../public/images/b2.jpg") 100% 100% no-repeat;
+        background: url("../../../public/images/background/background_2.jpg") 100% 100% no-repeat;
        background-size: 100% 100%;
     }
     h4{
