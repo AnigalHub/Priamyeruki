@@ -73,7 +73,7 @@
     height: 100%;
     margin: 0 !important;
     padding: 0 !important;
-    background: rgba(27, 82, 101, 0.18);
+    background: rgba(27, 82, 101, 0.2);
   }
   .container-fluid{
     padding-left: 0 !important;
