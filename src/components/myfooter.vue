@@ -37,7 +37,7 @@
                     {
                         pages:[
                             {
-                                link: "/activity",
+                                link: "/#activity",
                                 page: "Услуги",
                             },
                             {
