@@ -7,7 +7,7 @@
                 всеми видами работ по изготовлению разнообразного декора, рекламных
                 вывесок, сувенирной продукции, реставрацией и брендированием изделий.
             </p>
-            <b-row v-for="(paragraph,index) in AboutCompany" :key="index">
+            <b-row v-for="(paragraph,index) in AboutCompany" :key="index" class="paragraph">
                 <b-col cols="2">
                     <component :is="paragraph.svg"/>
                 </b-col>
@@ -99,10 +99,11 @@
     }
 </script>
 <style scoped lang="scss">
-
+    .paragraph:hover svg,
     .flex-container div:hover svg{
         animation: bounce-out 1.2s;
     }
+
     h5{
         text-align: center !important;
     }
