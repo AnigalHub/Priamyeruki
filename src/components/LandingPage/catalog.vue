@@ -33,15 +33,15 @@
                         descr: "Проектирование и моделирование",
                     },
                     {
-                        link: "../sandblasing",
-                        src: "./images/activity/5.jpg",
-                        alt: "Пескоструйная_обработка",
+                        link: "../laser_engraving",
+                        src: "./images/activity/6.jpg",
+                        alt: "Лазерная_гравировка",
                         descr: "Пескоструйная обработка",
                     },
                     {
                         link: "../sandblasing",
-                        src: "./images/activity/6.jpg",
-                        alt: "Лазерная_гравировка",
+                        src: "./images/activity/5.jpg",
+                        alt: "Пескоструйная_обработка",
                         descr: "Лазерная гравировка деревянных и пластиковых поверхностей",
                     },
                     {
@@ -70,9 +70,10 @@
     }
     .flex-container > div {
         background: radial-gradient(70% 70%, #ffffff, rgb(196, 192, 197));
-        width: 30%;
-        margin: 0 1.2% 2.3% 1.2% !important;
+        width: 31%;
+        margin: 0 1.1% 2.3% 1.1% !important;
         box-shadow: 5px 5px 5px #696969;
+        cursor: pointer !important;
 
         &:nth-child(4){
             margin-left: 15% !important;
@@ -92,6 +93,7 @@
     }
 
     h5{
+        cursor: pointer !important;
         height: 70px;
         padding: 0 0.5%;
         margin-bottom: 0 !important;
@@ -151,7 +153,7 @@
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
         h5{
-            height: 90px;
+            height: 95px;
         }
     }
     @media screen and (min-width: 992px)and (max-width: 1200px) {
