@@ -7,7 +7,7 @@
                 всеми видами работ по изготовлению разнообразного декора, рекламных
                 вывесок, сувенирной продукции, реставрацией и брендированием изделий.
             </p>
-            <b-row v-for="(paragraph,index) in AboutCompany" :key="index" class="paragraph">
+            <b-row v-for="(paragraph,index) in AboutCompany" :key="index">
                 <b-col cols="2">
                     <component :is="paragraph.svg"/>
                 </b-col>
