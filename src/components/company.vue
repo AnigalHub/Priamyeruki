@@ -99,7 +99,7 @@
     }
 </script>
 <style scoped lang="scss">
-    .paragraph:hover svg,
+    .row:hover svg,
     .flex-container div:hover svg{
         animation: bounce-out 1.2s;
     }
