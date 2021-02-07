@@ -41,7 +41,7 @@
                                 'Управление: от персонального компьютера, программа Mach3;',
                             ],
                             equipment: {
-                                imgSrc:'./images/equipment_1.jpg',
+                                imgSrc:'./images/equipment/equipment_1.jpg',
                                 imgAlt:'FZT-1212',
                             },
                         },
@@ -62,7 +62,7 @@
                                 'Лазеры: 12В/500МВт 405нм,12В/2500МВт 450нм, 12В/5500МВт 450нм;',
                             ],
                             equipment: {
-                                imgSrc:'./images/equipment_3.jpg',
+                                imgSrc:'./images/equipment/equipment_3.jpg',
                                 imgAlt:'CNC-3018',
                             },
                         },
@@ -79,7 +79,7 @@
                                 'Компрессор 50л: производительность 206л/мин, напряжение 220Вт;',
                             ],
                             equipment: {
-                                imgSrc:'./images/equipment_5.jpg',
+                                imgSrc:'./images/equipment/equipment_5.jpg',
                                 imgAlt:'Установка_химической_металлизации',
                             },
                         },
@@ -92,7 +92,7 @@
                                 'Рабочее пространство: 1210x600x580мм',
                             ],
                             equipment: {
-                                imgSrc:'./images/equipment_2.jpg',
+                                imgSrc:'./images/equipment/equipment_2.jpg',
                                 imgAlt:'NORDBERG-NS4',
                             },
 
@@ -108,7 +108,7 @@
                                 'трубопровод,двойная система фильтрации',
                             ],
                             equipment: {
-                                imgSrc:'./images/equipment_4.jpg',
+                                imgSrc:'./images/equipment/equipment_4.jpg',
                                 imgAlt:'Технологическая_ванна_для_аквапринта',
                             },
                         },

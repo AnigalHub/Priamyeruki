@@ -18,67 +18,67 @@
             return{
                 Works:[
                     {
-                        src: "./images/portfolio_1.png",
+                        src: "./images/portfolio/portfolio_1.png",
                         alt: "Наручники",
                     },
                     {
-                        src: "./images/portfolio_2.png",
+                        src: "./images/portfolio/portfolio_2.png",
                         alt: "Крепеж",
                     },
                     {
-                        src: "./images/portfolio_3.png",
+                        src: "./images/portfolio/portfolio_3.png",
                         alt: "Ваза_в_сад",
                     },
                     {
-                        src: "./images/portfolio_4.png",
+                        src: "./images/portfolio/portfolio_4.png",
                         alt: "Кронштейн",
                     },
                     {
-                        src: "./images/portfolio_5.png",
+                        src: "./images/portfolio/portfolio_5.png",
                         alt: "Замок",
                     },
                     {
-                        src: "./images/portfolio_6.jpg",
+                        src: "./images/portfolio/portfolio_6.jpg",
                         alt: "Вывеска",
                     },
                     {
-                        src: "./images/portfolio_12.png",
+                        src: "./images/portfolio/portfolio_12.png",
                         alt: "Коробочки_для камней",
                     },
                     {
-                        src: "./images/portfolio_8.png",
+                        src: "./images/portfolio/portfolio_8.png",
                         alt: "Коробочка",
                     },
                     {
-                        src: "./images/portfolio_7.jpg",
+                        src: "./images/portfolio/portfolio_7.jpg",
                         alt: "Подарочные_коробки",
                     },
                     {
-                        src: "./images/portfolio_9.png",
+                        src: "./images/portfolio/portfolio_9.png",
                         alt: "Подарочная упаковка",
                     },
                     {
-                        src: "./images/portfolio_10.png",
+                        src: "./images/portfolio/portfolio_10.png",
                         alt: "Часы",
                     },
                     {
-                        src: "./images/portfolio_11.png",
+                        src: "./images/portfolio/portfolio_11.png",
                         alt: "Шкатулка",
                     },
                     {
-                        src: "./images/portfolio_13.jpg",
+                        src: "./images/portfolio/portfolio_13.jpg",
                         alt: "Таблика_Гостехносервис",
                     },
                     {
-                        src: "./images/portfolio_14.jpg",
+                        src: "./images/portfolio/portfolio_14.jpg",
                         alt: "Светильник",
                     },
                     {
-                        src: "./images/portfolio_15.jpg",
+                        src: "./images/portfolio/portfolio_15.jpg",
                         alt: "Почищенные_ключи",
                     },
                     {
-                        src: "./images/portfolio_16.jpg",
+                        src: "./images/portfolio/portfolio_16.jpg",
                         alt: "Чистый_корпус_лопаты",
                     },
                 ],

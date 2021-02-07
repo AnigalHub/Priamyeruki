@@ -22,31 +22,31 @@
                 calalog:[
                     {
                         link: "../processing_on_a_cnc_milling_machine",
-                        src: "./images/1.jpg",
+                        src: "./images/activity/1.jpg",
                         descr: "Обработка дерева, металла и пластика на фрезерном станке ЧПУ",
                         alt: "Обработка_дерева,_металла_и_пластика_на_фрезерном_станке_ЧПУ",
                     },
                     {
                         link: "../design_and_modeling",
-                        src: "./images/2.jpg",
+                        src: "./images/activity/2.jpg",
                         alt: "Проектирование_и_моделирование",
                         descr: "Проектирование и моделирование",
                     },
                     {
                         link: "../sandblasing",
-                        src: "./images/5.jpg",
+                        src: "./images/activity/5.jpg",
                         alt: "Пескоструйная_обработка",
                         descr: "Пескоструйная обработка",
                     },
                     {
                         link: "../sandblasing",
-                        src: "./images/6.jpg",
+                        src: "./images/activity/6.jpg",
                         alt: "Лазерная_гравировка",
                         descr: "Лазерная гравировка деревянных и пластиковых поверхностей",
                     },
                     {
                         link: "../painting_works",
-                        src: "./images/7.jpg",
+                        src: "./images/activity/7.jpg",
                         alt: "Малярно-покрасочные_работы",
                         descr: "Малярно-покрасочные работы",
                     },
