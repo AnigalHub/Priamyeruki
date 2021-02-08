@@ -3,22 +3,12 @@
         <b-container>
             <h2>О компании</h2>
             <p class="text">
-                <b>ООО «Аваконт»</b> - производственная компания, занимающаяся
-                всеми видами работ по изготовлению разнообразного декора, рекламных
-                вывесок, сувенирной продукции, реставрацией и брендированием изделий.
+                <b>ООО «Аваконт»</b> - производственная компания, занимающаяся всеми видами работ по изготовлению разнообразного декора, рекламных вывесок, сувенирной продукции, реставрацией и брендированием изделий.
             </p>
-            <b-row v-for="(paragraph,index) in AboutCompany" :key="index">
-                <b-col cols="2">
-                    <component :is="paragraph.svg"/>
-                </b-col>
-                <b-col>
-                    <p class="text" v-html="paragraph.descr"></p>
-                </b-col>
-            </b-row>
-            <p class="text">
-                <u><b>Целью нашей компании</b></u>  является качественное предоставление вашей продукции на рынке,
-                восстановление функциональности товаров, популяризация торговой марки вашего
-                предприятия, привлечение внимания потребителей с помощью мощностей нашего производства.
+            <img src="../../public/images/company/company.png">
+            <p v-for="(paragraph,index) in AboutCompany" :key="index" class="text" v-html="paragraph.descr"></p>
+            <p class="text clear">
+                <u><b>Целью нашей компании</b></u>  является качественное предоставление вашей продукции на рынке, восстановление функциональности товаров, популяризация торговой марки вашего предприятия, привлечение внимания потребителей с помощью мощностей нашего производства.
             </p>
             <div class="general_col">
                 <h5>Этапы работы с клиентом:</h5>
@@ -103,82 +93,75 @@
     .flex-container div:hover svg{
         animation: bounce-out 1.2s;
     }
-
     h5{
         text-align: center !important;
     }
     h5,h6{
-       cursor: default;
+        cursor: default;
     }
-    .col-2{
-        padding-left: 0 !important;
+    img{
+        width: 45%;
+        float: left;
+        margin: 0 2% 1% 0;
     }
     .flex-container {
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 2%;
     }
     .flex-container > div {
         width: 18%;
         margin: 0 0.5% 1% 0.5% !important;
     }
-    .general_col{
-        padding: 0 !important;
-    }
-    .col{
-        display: flex;
-        align-items: center;
-    }
     svg{
-        width: 150px;
-        height: 115px;
+        width: 120px;
+        height: 100px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
     @media screen and (max-width: 500px) {
-            svg{
-                width: 50px;
-                height: 50px;
-            }
-            .flex-container > div {
-                width: 31.2%;
-                margin-bottom: 0 !important;
-            }
-            .flex-container > div:nth-child(4){
-                margin-left: 15% !important;
-            }
-
-    }
-    @media screen and (min-width: 500px)and (max-width: 768px) {
-            svg{
-                width: 75px;
-                height: 75px;
-            }
-    }
-    @media screen and (min-width: 768px)and (max-width: 992px) {
-            svg{
-                width: 85px;
-                height: 85px;
-            }
-    }
-
-    @media screen and (min-width: 2000px) and (min-height: 992px){
-        svg{
-            float: left;
-            height: 130px;
-            margin-left: 0;
-            margin-right: auto;
-            margin-bottom: 0.5% !important;
+        img{
+            width: 70%;
+            float: none;
         }
-        h6{
-            text-align: left !important;
-            padding-top: 8% !important;
+        p{
+            margin-bottom: .25rem !important;
+        }
+        svg{
+            width: 50px;
+            height: 50px;
         }
         .flex-container > div {
-            width: 50%;
+            width: 31.2%;
+            margin-bottom: 0 !important;
+        }
+        .flex-container > div:nth-child(4){
+            margin-left: 15% !important;
         }
     }
+    @media screen and (min-width: 500px)and (max-width: 768px) {
+        img{
+            width: 50%;
+        }
+        svg{
+            width: 75px;
+            height: 75px;
+        }
+    }
+    @media screen and (min-width: 768px)and (max-width: 992px) {
+        svg{
+            width: 85px;
+            height: 85px;
+        }
+    }
+    @media screen and (min-width: 992px)and (max-width: 1200px) {
+        svg{
+            width: 95px;
+            height: 95px;
+        }
+    }
+
+
     @media screen and (max-width: 1600px) and (min-height: 992px){
         svg{
 
