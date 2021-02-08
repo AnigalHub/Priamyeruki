@@ -64,7 +64,7 @@
         padding: 1.8% 0;
     }
     .col{
-        font-size: 1.15rem;
+        font-size: 1.22rem;
         text-align: center;
         color: rgba(255, 255, 255, 0.9) !important;
         font-weight: 600;
@@ -75,6 +75,9 @@
         color: rgba(255, 255, 255, 0.9) !important;
     }
     @media screen and (max-width: 500px) {
+        .row{
+            flex-direction: column;
+        }
         .col{
             font-size:0.55rem;
             padding: 0 5px !important;
