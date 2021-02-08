@@ -65,7 +65,7 @@
 <style lang="scss">
   @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
-      max-width: 1180px !important;
+      max-width: 1200px !important;
       max-height: 100% !important;
     }
   }
@@ -92,7 +92,9 @@
   img{
     width: 100%;
     filter:  contrast(115%);
-
+  }
+  p{
+    margin-bottom: .25rem !important;
   }
   #processing, #modeling, #chrome_plating, #aquaprint, #laser,
   #sandblasing, #painting, #drawing,
@@ -124,8 +126,8 @@
     color: #152534;
     text-shadow: 0.3px 0.3px 0.3px #ffffff;
     font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 1.45rem;
+    font-size: 1.45rem;
+    line-height: 1.7rem;
     padding-bottom: 1.5%;
   }
 
@@ -142,12 +144,12 @@
   .text_light,.text_night{
     font-weight: 500;
     line-height: 1.5rem;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
   }
   td,th{
     color: #152534;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
   }
   .col-2 {
     flex: 0 0 12% !important;
@@ -161,7 +163,11 @@
     width: 100%;
     box-shadow: 5px 5px 5px #8a8a8a;
   }
+  h2,h4,h5,h6,.text{
+    letter-spacing: -.5px;
+  }
   h2{
+    font-family: "Lora", serif;
     font-weight: 700 !important;
     color: #152534;
     padding: 2.5% 0 1% 0;
@@ -173,7 +179,7 @@
     font-weight: 700 !important;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.74);
     color: #152534;
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
     padding: 1.5% 0 1.5% 0;
   }
   h4{
@@ -181,13 +187,13 @@
     font-weight: 500 !important;
     letter-spacing: -0.8px;
     text-align: left !important;
-    font-size: 1.3rem !important;
+    font-size: 1.45rem !important;
     padding-top: 1%;
     font-family: 'Lora', serif;
     cursor: default;
   }
   h5{
-    font-size: 1.25rem !important;
+    font-size: 1.5rem !important;
     font-weight: 700 !important;
     letter-spacing: -0.5px;
   }
@@ -197,7 +203,18 @@
   h6{
     text-align: center !important;
     font-weight: 700 !important;
-    font-size: 1.25rem !important;
+    font-size: 1.45rem !important;
+  }
+  .descr_img{
+    float: left;
+    width: 38%;
+    margin: 0 2% 0 0
+  }
+  .ul_descr{
+    margin-left: 38%;
+  }
+  .clear{
+    clear:left;
   }
 
   @keyframes bounce-in {
@@ -268,7 +285,7 @@
       font-weight: 400 !important;
     }
     .price,.text{
-        font-size: 0.8rem;
+        font-size: 0.95rem;
         line-height: 0.9rem;
       }
     td{
@@ -315,20 +332,25 @@
         max-width: 25% !important;
       }
     }
+    .descr_img{
+      width: 70%;
+      float: none;
+    }
+    ul{
+      margin-left: -5% !important;
+    }
+
   }
   @media screen and (min-width: 500px)and (max-width: 768px) {
     h2{
-      padding: 0.5% 0 0.5% 0;
+      padding: 1.5% 0 0.5% 0;
       font-size: 1.5rem !important;
     }
-    h5{
-      font-size: 0.9rem !important;
-    }
-    h6{
-      font-size: 0.75rem !important;
+    h5,h6{
+      font-size: 1.15rem !important;
     }
     h4{
-      font-size: 1rem !important;
+      font-size: 1.2rem !important;
     }
     .text_light,.text_night{
       line-height: 0.9rem;
@@ -338,7 +360,7 @@
       font-weight: 400 !important;
     }
     .price,.text{
-      font-size: 0.95rem;
+      font-size: 1.15rem;
       line-height: 1.2rem;
     }
     td{
@@ -380,6 +402,21 @@
         max-width: 25% !important;
       }
     }
+    .descr_img{
+      width: 50%;
+    }
+    #painting .ul_descr li:first-child{
+      margin-left: 18%;
+    }
+    #painting .ul_descr li:not(:first-child){
+      clear: left;margin-left: -70%;
+    }
+    #modeling .ul_descr {
+      clear: left;
+      li{
+        margin-left: -70%;
+      }
+    }
   }
   @media screen and (min-width: 768px){
       .description_row{
@@ -390,19 +427,23 @@
       }
   }
   @media screen and (min-width: 768px)and (max-width: 992px) {
+    h2{
+      padding: 1.5% 0 0.5% 0;
+      font-size: 1.5rem !important;
+    }
     h6{
-      font-size: 1.15rem !important;
+      font-size: 1.2rem !important;
     }
     h4,h5{
-      font-size: 1.2rem !important;
+      font-size: 1.25rem !important;
     }
     .text_light,.text_night{
       font-weight: 400 !important;
       line-height: 1.1rem;
-      font-size: 1.15rem;
+      font-size: 1.2rem;
     }
     .price,td,th,.text{
-      font-size: 1.15rem;
+      font-size: 1.2rem;
       line-height: 1.35rem;
     }
     .important_row {
@@ -420,22 +461,29 @@
         max-width: 18% !important;
       }
     }
+    #modeling .ul_descr li:last-child{
+      margin-left: -70% !important;
+    }
   }
   @media screen and (min-width: 992px)and (max-width: 1200px) {
-    h6{
-      font-size: 1.2rem !important;
+    h2{
+      padding: 1.5% 0 0.5% 0;
+      font-size: 1.8rem !important;
     }
-    h5{
+    h6{
       font-size: 1.25rem !important;
     }
-    h4{
+    h5{
       font-size: 1.3rem !important;
+    }
+    h4{
+      font-size: 1.35rem !important;
     }
     .text_light,.text_night{
       line-height: 1.2rem;
     }
     .price, td,th,.text{
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.4rem;
     }
   }
