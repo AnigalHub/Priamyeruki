@@ -5,7 +5,7 @@
             <p class="text">
                 <b>ООО «Аваконт»</b> - производственная компания, занимающаяся всеми видами работ по изготовлению разнообразного декора, рекламных вывесок, сувенирной продукции, реставрацией и брендированием изделий.
             </p>
-            <img src="../../public/images/company/company.png">
+           <img src="../../public/images/company/company.png">
             <p v-for="(paragraph,index) in AboutCompany" :key="index" class="text" v-html="paragraph.descr"></p>
             <p class="text clear">
                 <u><b>Целью нашей компании</b></u>  является качественное предоставление вашей продукции на рынке, восстановление функциональности товаров, популяризация торговой марки вашего предприятия, привлечение внимания потребителей с помощью мощностей нашего производства.
@@ -161,7 +161,6 @@
         }
     }
 
-
     @media screen and (max-width: 1600px) and (min-height: 992px){
         svg{
 
@@ -169,7 +168,6 @@
             margin-left: auto;
             margin-bottom: 1.5% !important;
         }
-
         .flex-container > div {
             width: 31.2%;
             margin-bottom: 5% !important;
