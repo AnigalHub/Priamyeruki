@@ -88,9 +88,10 @@
     }
     .flex-container > div {
         background: radial-gradient(70% 70%, #ffffff, rgb(196, 192, 197));
-        width: 31.2%;
-        margin: 0 1% 2% 1% !important;
+        width: 31.7%;
+        margin: 0 .8% 1.6% .8% !important;
         box-shadow: 5px 5px 5px #696969;
+        cursor: pointer !important;
     }
     .flex-container > div:hover {
         box-shadow:  0 0 9px  7px #1A394B;
@@ -106,7 +107,7 @@
     }
 
     h5{
-        height: 60px;
+        height: 80px;
         padding: 0 0.5%;
         margin-bottom: 0 !important;
         background: radial-gradient(70% 70%, #ffffff, rgb(210, 206, 211));
