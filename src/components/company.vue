@@ -24,37 +24,30 @@
 </template>
 
 <script>
-    import CompanySVG from '../components/company_svg/company_svg';
-    import OrdersSVG from '../components/company_svg/orders_svg';
-    import IndividualApproachSVG from '../components/company_svg/individual_approach_svg';
-    import QualitySVG from '../components/company_svg/quality_svg';
+
     import TelephoneSVG from '../components/company_svg/telephone_svg';
     import ModelSVG from '../components/company_svg/model_svg';
     import CalculationSVG from'../components/company_svg/calculation_svg';
     import ContractSVG from '../components/company_svg/contract_svg';
     import ProductionSVG from '../components/company_svg/production_svg';
     export default {
-        components: {CompanySVG, OrdersSVG, IndividualApproachSVG, QualitySVG, TelephoneSVG, ModelSVG,CalculationSVG,ContractSVG,ProductionSVG},
+        components: { TelephoneSVG, ModelSVG,CalculationSVG,ContractSVG,ProductionSVG},
         name: "company",
         data() {
             return {
                 AboutCompany:[
                     {
-                        svg:"CompanySVG",
                         descr:'Компания ООО «Аваконт» была основана <u> 18 февраля 2019 года.</u>',
                     },
                     {
-                        svg:"OrdersSVG",
                         descr:'  За это время мы качественно выполнили более <b>1500</b> заказов,\n' +
                             '<b>40%</b> заказов - это повторные заказы наших Клиентов, а также обращения\n' +
                             'по их рекомендациям. Наши цены - одни из самых  доступных в Москве и Московской области.',
                     },
                     {
-                        svg:"IndividualApproachSVG",
                         descr:'В своей работе мы придерживаемся особого подхода к каждому клиенту. Задачи, поставленные заказчиком, решаются исходя из личных пожеланий Клиента.',
                     },
                     {
-                        svg:"QualitySVG",
                         descr:'Обращаясь к нам, Вы получаете выполнение Вашего заказа в кратчайшие сроки и высокое качество производимых работ!',
                     },
                 ],
