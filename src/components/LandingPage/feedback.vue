@@ -68,6 +68,11 @@
     .form-control {
         border: 1px solid #1a3346 !important;
     }
+    label{
+        font-weight: 800;
+        letter-spacing: -1px;
+        font-family: "Lora", serif;
+    }
     textarea{
         height: 88% !important;
     }
@@ -81,6 +86,7 @@
         padding: 0 !important;
     }
     button{
+        font-family: "Lora", serif;
         background: radial-gradient(70% 70%, #1f3e57,  #152534);
         border: none !important;
         font-weight: 700;

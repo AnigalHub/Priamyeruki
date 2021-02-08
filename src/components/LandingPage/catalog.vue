@@ -70,8 +70,8 @@
     }
     .flex-container > div {
         background: radial-gradient(70% 70%, #ffffff, rgb(196, 192, 197));
-        width: 31%;
-        margin: 0 1.1% 2.3% 1.1% !important;
+        width: 31.7%;
+        margin: 0 .8% 1.6% .8% !important;
         box-shadow: 5px 5px 5px #696969;
         cursor: pointer !important;
 
@@ -94,7 +94,7 @@
 
     h5{
         cursor: pointer !important;
-        height: 70px;
+        height: 80px;
         padding: 0 0.5%;
         margin-bottom: 0 !important;
         background: radial-gradient(70% 70%, #ffffff, rgb(210, 206, 211));
