@@ -5,7 +5,7 @@
             <p class="text">
                 <b>ООО «Аваконт»</b> - производственная компания, занимающаяся всеми видами работ по изготовлению разнообразного декора, рекламных вывесок, сувенирной продукции, реставрацией и брендированием изделий.
             </p>
-           <img src="../../public/images/company/company.png">
+           <img src="../../public/images/company/company.png" alt="о_компании">
             <p v-for="(paragraph,index) in AboutCompany" :key="index" class="text" v-html="paragraph.descr"></p>
             <p class="text clear">
                 <u><b>Целью нашей компании</b></u>  является качественное предоставление вашей продукции на рынке, восстановление функциональности товаров, популяризация торговой марки вашего предприятия, привлечение внимания потребителей с помощью мощностей нашего производства.
@@ -52,30 +52,11 @@
                     },
                 ],
                 StepsCompany: [
-                    {
-                        svg: 'TelephoneSVG',
-                        name_step: 'Звоните или оставляете заявку',
-
-                    },
-                    {
-                        svg: 'ModelSVG',
-                        name_step: 'Согласовываем макет проекта',
-
-                    },
-                    {
-                        svg: 'CalculationSVG',
-                        name_step: 'Производим расчет по Вашему заказу',
-
-                    },
-                    {
-                        svg: 'ContractSVG',
-                        name_step: 'Подписываем договор',
-
-                    }, {
-                        svg: 'ProductionSVG',
-                        name_step: 'Запускаем проект в производство',
-
-                    },
+                    {svg: 'TelephoneSVG', name_step: 'Звоните или оставляете заявку',},
+                    {svg: 'ModelSVG', name_step: 'Согласовываем макет проекта',},
+                    {svg: 'CalculationSVG', name_step: 'Производим расчет по Вашему заказу',},
+                    {svg: 'ContractSVG', name_step: 'Подписываем договор',},
+                    {svg: 'ProductionSVG', name_step: 'Запускаем проект в производство',},
                 ],
             }
         }
