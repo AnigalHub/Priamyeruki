@@ -73,14 +73,7 @@
                         src: "./images/portfolio/portfolio_14.jpg",
                         alt: "Светильник",
                     },
-                    {
-                        src: "./images/portfolio/portfolio_15.jpg",
-                        alt: "Почищенные_ключи",
-                    },
-                    {
-                        src: "./images/portfolio/portfolio_16.jpg",
-                        alt: "Чистый_корпус_лопаты",
-                    },
+
                 ],
             }
         }
@@ -108,7 +101,7 @@
     }
     .flex-container > div {
         background: radial-gradient(70% 70%, #ffffff, rgb(210, 206, 211));
-        width: 22%;
+        width: 30%;
         margin: 0 1.5% 2.2% 1.5% !important;
     }
     @media screen and (max-width: 768px) {
