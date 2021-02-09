@@ -7,78 +7,73 @@
 </template>
 
 <script>
-    import Navbar from "./components/navbar";
-    import Myfooter from "./components/myfooter"
-    export default {
-  name: 'App',
-  components: {
+  import Navbar from "./components/navbar";
+  import Myfooter from "./components/myfooter"
+  export default {
+    name: 'App',
+    components: {
       Myfooter,
       Navbar}
-}
+  }
 </script>
 
 <style>
-    td,th{
-        border: 1px solid #173e4e !important;
-    }
-    .table{
-      margin-bottom: 0.05% !important;
-    }
+  td,th{
+    border: 1px solid #173e4e !important;
+  }
+  .table{
+    margin-bottom: 0.05% !important;
+  }
+  .table td {
+    padding: 0.35rem !important;
+  }
+  th{
+    border-collapse: collapse;
+  }
+  th:hover{
+    background: #152534 !important;
+    color: white;
+  }
+  tr{
+    background: rgba(255, 255, 255, 0.77) !important;
+    text-align: left !important;
+  }
+  tr td:first-child{
+    min-height: 10em;
+    display: table-cell;
+    text-align: center !important;
+    vertical-align: middle
+  }
+  tr:hover{
+    background: rgba(199, 245, 255, 0.4) !important;
+    color: white;
+  }
+  th{
+    color: white !important;
+    text-align: center !important;
+    background: #152534 !important;
+  }
+  tr td,th {
+    text-align: center !important;
+  }
+  @media screen and (min-height: 992px){
     .table td {
-      padding: 0.35rem !important;
+      padding: 0.75rem !important;
     }
-    th{
-        border-collapse: collapse;
-    }
-    th:hover{
-        background: #152534 !important;
-        color: white;
-    }
-    tr{
-        background: rgba(255, 255, 255, 0.77) !important;
-        text-align: left !important;
-    }
-    tr td:first-child{
-        min-height: 10em;
-        display: table-cell;
-        text-align: center !important;
-        vertical-align: middle
-    }
-    tr:hover{
-        background: rgba(199, 245, 255, 0.4) !important;
-        color: white;
-    }
-    th{
-        color: white !important;
-        text-align: center !important;
-        background: #152534 !important;
-    }
-    tr td,th {
-        text-align: center !important;
-    }
-    @media screen and (min-height: 992px){
-      .table td {
-        padding: 0.75rem !important;
-      }
-    }
-    @media screen and (min-width: 2000px) and (min-height: 992px){
-      .table td {
-        font-size: 1.5rem !important;
-      }
-    }
+  }
 </style>
 <style lang="scss">
   @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
-      max-width: 1180px !important;
-      max-height: 100%;
+      max-width: 1200px !important;
+      max-height: 100% !important;
     }
   }
   #app{
     height: 100%;
     margin: 0 !important;
     padding: 0 !important;
-    background: rgba(27, 82, 101, 0.25);
+    background: rgba(27, 82, 101, 0.2);
   }
   .container-fluid{
     padding-left: 0 !important;
@@ -92,17 +87,19 @@
     margin: 0 !important;
   }
   a {
-     text-decoration: none !important;
+    text-decoration: none !important;
   }
   img{
     width: 100%;
     filter:  contrast(115%);
-
+  }
+  p{
+    margin-bottom: .25rem !important;
   }
   #processing, #modeling, #chrome_plating, #aquaprint, #laser,
   #sandblasing, #painting, #drawing,
   #contacts,  #company, #samples{
-      padding-bottom: 2.5%;
+    padding-bottom: 2.5%;
   }
   .price{
     padding-top: 0.1%;
@@ -114,11 +111,11 @@
     padding-bottom: 1.5%;
   }
   .price{
-      background: white;
-      padding: 1.5%;
-      text-indent: 0.8%;
-      font-weight: 600;
-      margin-top:1%;
+    background: white;
+    padding: 1.5%;
+    text-indent: 0.8%;
+    font-weight: 600;
+    margin-top:3%;
   }
   .text,.text_light,.text_night,
   td,th,h3,h5,h6{
@@ -129,13 +126,9 @@
     color: #152534;
     text-shadow: 0.3px 0.3px 0.3px #ffffff;
     font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 1.45rem;
+    font-size: 1.45rem;
+    line-height: 1.7rem;
     padding-bottom: 1.5%;
-  }
-
-  .text_after_video{
-      padding-top: 1.5%;
   }
   .text_light{
     color: rgba(255, 255, 255, 0.85);
@@ -147,12 +140,12 @@
   .text_light,.text_night{
     font-weight: 500;
     line-height: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   td,th{
     color: #152534;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
   }
   .col-2 {
     flex: 0 0 12% !important;
@@ -160,25 +153,29 @@
     padding: 0 !important;
   }
   .col-5{
-      padding: 0 !important;
+    padding: 0 !important;
   }
   video{
     width: 100%;
     box-shadow: 5px 5px 5px #8a8a8a;
   }
+  h2,h4,h5,h6,.text{
+    letter-spacing: -.5px;
+  }
   h2{
+    font-family: "Lora", serif;
     font-weight: 700 !important;
     color: #152534;
     padding: 2.5% 0 1% 0;
   }
   h2,h5{
-      text-align: left !important;
+    text-align: left !important;
   }
   h3{
     font-weight: 700 !important;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.74);
     color: #152534;
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
     padding: 1.5% 0 1.5% 0;
   }
   h4{
@@ -186,13 +183,13 @@
     font-weight: 500 !important;
     letter-spacing: -0.8px;
     text-align: left !important;
-    font-size: 1.4rem !important;
+    font-size: 1.45rem !important;
     padding-top: 1%;
     font-family: 'Lora', serif;
     cursor: default;
   }
   h5{
-    font-size: 1.3rem !important;
+    font-size: 1.5rem !important;
     font-weight: 700 !important;
     letter-spacing: -0.5px;
   }
@@ -202,7 +199,18 @@
   h6{
     text-align: center !important;
     font-weight: 700 !important;
-    font-size: 1.25rem !important;
+    font-size: 1.45rem !important;
+  }
+  .descr_img{
+    float: left;
+    width: 38%;
+    margin: 0 2% 0 0
+  }
+  .ul_descr{
+    margin-left: 38%;
+  }
+  .clear{
+    clear:left;
   }
 
   @keyframes bounce-in {
@@ -230,23 +238,11 @@
   @media screen and (min-width: 2000px) and (min-height: 992px){
     .text,.text_light,.text_night,h5,h6{
       font-size: 1.4rem !important;
-    }
-    .important_row{
-      flex-direction: column;
-      .col-5 {
-        flex: 0 0 50% !important;
-        max-width: 50% !important;
-      }
-      iframe{
-        height: 285px !important;
-      }
-      ul{
-        margin-bottom: 0 !important;
-      }
+      line-height: 1.65rem !important;
     }
   }
   @media screen and (max-width: 380px) {
-  td{
+    td{
       font-size: 0.8rem;
       line-height: 1rem !important;
       padding: 0.15rem !important;
@@ -285,16 +281,16 @@
       font-weight: 400 !important;
     }
     .price,.text{
-        font-size: 0.8rem;
-        line-height: 0.9rem;
-      }
+      font-size: 0.95rem;
+      line-height: 0.9rem;
+    }
     td{
       font-size: 0.8rem;
       line-height: 0.9rem;
     }
-   .table td {
-     padding: 0.05rem !important;
-   }
+    .table td {
+      padding: 0.05rem !important;
+    }
     th{
       font-size: 0.65rem;
       line-height: 1rem;
@@ -324,28 +320,33 @@
         margin-right: 10%;
       }
       .col,.col-2 {
-          padding: 0 !important;
-          float: none;
+        padding: 0 !important;
+        float: none;
       }
       .col-2{
         flex: 0 0 25% !important;
         max-width: 25% !important;
       }
     }
+    .descr_img{
+      width: 70%;
+      float: none;
+    }
+    ul{
+      margin-left: -5% !important;
+    }
+
   }
   @media screen and (min-width: 500px)and (max-width: 768px) {
     h2{
-      padding: 0.5% 0 0.5% 0;
+      padding: 1.5% 0 0.5% 0;
       font-size: 1.5rem !important;
     }
-    h5{
-      font-size: 0.9rem !important;
-    }
-    h6{
-      font-size: 0.75rem !important;
+    h5,h6{
+      font-size: 1.15rem !important;
     }
     h4{
-      font-size: 1rem !important;
+      font-size: 1.2rem !important;
     }
     .text_light,.text_night{
       line-height: 0.9rem;
@@ -355,7 +356,7 @@
       font-weight: 400 !important;
     }
     .price,.text{
-      font-size: 0.95rem;
+      font-size: 1.15rem;
       line-height: 1.2rem;
     }
     td{
@@ -387,7 +388,7 @@
       }
     }
     .description_row{
-     display: block !important;
+      display: block !important;
       img{
         float: left;
         margin-right: 10%;
@@ -397,30 +398,49 @@
         max-width: 25% !important;
       }
     }
+    .descr_img{
+      width: 50%;
+    }
+    #painting .ul_descr li:first-child{
+      margin-left: 18%;
+    }
+    #painting .ul_descr li:not(:first-child){
+      clear: left;margin-left: -70%;
+    }
+    #modeling .ul_descr {
+      clear: left;
+      li{
+        margin-left: -70%;
+      }
+    }
   }
   @media screen and (min-width: 768px){
-      .description_row{
-          .col{
-              display: flex;
-              align-items: center
-          }
+    .description_row{
+      .col{
+        display: flex;
+        align-items: center
       }
+    }
   }
   @media screen and (min-width: 768px)and (max-width: 992px) {
+    h2{
+      padding: 1.5% 0 0.5% 0;
+      font-size: 1.5rem !important;
+    }
     h6{
-      font-size: 1.15rem !important;
+      font-size: 1.2rem !important;
     }
     h4,h5{
-      font-size: 1.2rem !important;
+      font-size: 1.25rem !important;
     }
     .text_light,.text_night{
       font-weight: 400 !important;
       line-height: 1.1rem;
-      font-size: 1.15rem;
+      font-size: 1.2rem;
     }
     .price,td,th,.text{
-      font-size: 1.15rem;
-      line-height: 1.45rem;
+      font-size: 1.2rem;
+      line-height: 1.35rem;
     }
     .important_row {
       flex-direction: column;
@@ -437,23 +457,30 @@
         max-width: 18% !important;
       }
     }
+    #modeling .ul_descr li:last-child{
+      margin-left: -70% !important;
+    }
   }
   @media screen and (min-width: 992px)and (max-width: 1200px) {
-    h6{
-      font-size: 1.2rem !important;
+    h2{
+      padding: 1.5% 0 0.5% 0;
+      font-size: 1.8rem !important;
     }
-    h5{
+    h6{
       font-size: 1.25rem !important;
     }
-    h4{
+    h5{
       font-size: 1.3rem !important;
+    }
+    h4{
+      font-size: 1.35rem !important;
     }
     .text_light,.text_night{
       line-height: 1.2rem;
     }
     .price, td,th,.text{
-        font-size: 1.2rem;
-        line-height: 1.4rem;
+      font-size: 1.25rem;
+      line-height: 1.4rem;
     }
   }
   @media screen and (min-width: 1200px)and (max-width: 1400px) {
