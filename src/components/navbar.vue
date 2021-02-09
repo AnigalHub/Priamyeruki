@@ -11,7 +11,7 @@
                     <b-icon v-else icon="chevron-bar-down"></b-icon>
                 </template>
             </b-navbar-toggle>
-            <b-collapse id="navbar-toggle-collapse" class="justify-content-center" is-nav>
+            <b-collapse id="navbar-toggle-collapse" class="justify-content-end" is-nav>
                 <b-navbar-nav>
                     <b-nav-item to="/company">О нас</b-nav-item>
                     <b-nav-item to="/equipment">Оборудование</b-nav-item>
@@ -48,8 +48,9 @@
         padding-right: 0.5rem !important;
         padding-left: 0.5rem !important;
         font-weight: 600 !important;
-        font-size: 1.2rem !important;
+        font-size: 1.25rem !important;
         font-family: 'Tenor Sans', sans-serif;
+        letter-spacing: -.5px;
         background: none !important;
         border: none !important;
     }
@@ -59,7 +60,7 @@
     .dropdown-item {
         color: #152534 !important;
         font-weight: 600 !important;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         border: 0.5px solid rgba(75, 105, 119, 0.66) !important;
     }
     .dropdown-item:hover{
@@ -77,13 +78,13 @@
         #navbar-toggle-collapse{
             padding-bottom: 2%;
         }
-       .nav-link,.dropdown-item {
+        .nav-link,.dropdown-item {
             font-size: 0.8rem !important;
         }
-       .nav-link:hover{
-           background:  rgba(240, 240, 240, 0.97) !important;
-           text-decoration: none !important;
-       }
+        .nav-link:hover{
+            background:  rgba(240, 240, 240, 0.97) !important;
+            text-decoration: none !important;
+        }
         .dropdown-toggle{
             font-size: 0.85rem !important;
         }
@@ -175,6 +176,9 @@
         }
     }
     @media screen and (min-width: 992px)and (max-width: 1200px) {
+        #navbar-toggle-collapse{
+            padding-bottom: 2%;
+        }
         .nav-link,.dropdown-item{
             font-size: 1.2rem !important;
         }
