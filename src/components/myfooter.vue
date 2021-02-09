@@ -29,26 +29,14 @@
                 catalog_pages:[
                     {
                         pages:[
-                            {
-                                link: "/company",
-                                page: "О нас",
-                            },
-                            {
-                                link: "/equipment",
-                                page: "Оборудование",
-                            },
+                            {link: "/company", page: "О нас",},
+                            {link: "/equipment", page: "Оборудование",},
                         ],
                     },
                     {
                         pages:[
-                            {
-                                link: "/#activity",
-                                page: "Услуги",
-                            },
-                            {
-                                link: "/samples_of_work",
-                                page: "Образцы работ",
-                            },
+                            {link: "/#activity", page: "Услуги",},
+                            {link: "/samples_of_work", page: "Образцы работ",},
                         ],
                     },
                 ]

@@ -112,14 +112,6 @@
             margin: 0 2.5% 3.2% 2.5% !important;
         }
     }
-    @media screen and (min-width: 768px)and (max-width: 992px) {
-        .flex-container > div {
-            margin: 0 2% 3.8% 2% !important;
-        }
-        .flex-container > div {
-            width: 28%;
-        }
-    }
     @media screen and (max-width: 768px) {
         .flex-container > div {
             width: 42%;
