@@ -21,7 +21,7 @@
 </script>
 <style lang="scss">
     #activity,#feedback{
-        padding: 1.5% 0 2.5% 0;
+        padding: .25% 0 2% 0;
     }
     h2 {
         font-weight: 700 !important;

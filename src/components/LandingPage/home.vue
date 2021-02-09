@@ -23,9 +23,9 @@
 
 <style scoped lang="scss">
     #background{
-       background-color: rgba(0, 0, 0, 0.35);
-       padding: 6.9% 0 6.9% 0;
-       border-bottom: 2px solid #152534;
+        background-color: rgba(0, 0, 0, 0.35);
+        padding: 8.5% 0 8.5% 0;
+        border-bottom: 2px solid #152534;
     }
     #home{
         background: url("../../../public/images/background/background.jpg") 100% 100% no-repeat;
@@ -39,7 +39,7 @@
         font-weight: 600;
         cursor: default;
         line-height: 3rem;
-        font-family: "Tenor Sans", sans-serif;
+        font-family: "Lora", serif;
         text-shadow: 1.4px 1.4px 1.4px #152534;
         font-size: 2.6rem;
     }
@@ -47,14 +47,16 @@
         width: 45%;
         background: radial-gradient(50% 70%, #ffffff, rgb(160, 156, 161));
         border: 2px solid white !important;
+        font-family: "Lora", serif;
         border-radius: 7px;
         margin-top: 6%;
         font-weight: 700;
-        color: #193647;
+        color: #0d2331;
+        text-shadow: 1px 1px 2px #193647;
         margin-left: 2% !important;
         margin-right: 2% !important;
         padding: 0.8%;
-        font-size: 1.3rem;
+        font-size: 1.45rem;
     }
     button:hover{
         background: #ffffff !important;
@@ -94,6 +96,9 @@
     }
 
     @media screen and (min-width: 500px)and (max-width: 768px) {
+        #background{
+            padding:9.5% 0 9.5% 0;
+        }
         .description{
             line-height: 2rem;
             font-size: 1.7rem;
@@ -119,9 +124,9 @@
     @media screen and (max-width: 1300px) {
         #home{
             background: url("../../../public/images/background/background_double.jpg") 100% 100% no-repeat;
-           background-attachment: initial;
-           background-position: 100%;
-           background-size: 100% 100%;
+            background-attachment: initial;
+            background-position: 100%;
+            background-size: 100% 100%;
         }
     }
 
