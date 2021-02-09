@@ -24,38 +24,20 @@
                 catalog_pages:[
                     {
                         pages:[
-                            {
-                                link: "/company",
-                                page: "О нас",
-                            },
-                            {
-                                link: "/equipment",
-                                page: "Оборудование",
-                            },
+                            {link: "/company", page: "О нас",},
+                            {link: "/equipment", page: "Оборудование",},
                         ],
                     },
                     {
                         pages:[
-                            {
-                                link: "/#activity",
-                                page: "Услуги",
-                            },
-                            {
-                                link: "/samples_of_work",
-                                page: "Образцы работ",
-                            },
+                            {link: "/#activity", page: "Услуги",},
+                            {link: "/samples_of_work", page: "Образцы работ",},
                         ],
                     },
                     {
                         pages:[
-                            {
-                                link: "/contacts",
-                                page: "Отзывы",
-                            },
-                            {
-                                link: "/contacts",
-                                page: "Контакты",
-                            },
+                            {link: "/contacts", page: "Отзывы",},
+                            {link: "/contacts", page: "Контакты",},
                         ],
                     },
                 ]
@@ -67,10 +49,11 @@
 <style scoped lang="scss">
     .myfooter{
         background: #0d0d1b;
+        background-size:100% 100%;
         padding: 1.8% 0;
     }
     .col{
-        font-size: 1.15rem;
+        font-size: 1.22rem;
         text-align: center;
         color: rgba(255, 255, 255, 0.9) !important;
         font-weight: 600;
@@ -81,17 +64,18 @@
         color: rgba(255, 255, 255, 0.9) !important;
     }
     @media screen and (max-width: 500px) {
+        .row{
+            flex-direction: column;
+        }
         .col{
             font-size:0.55rem;
             padding: 0 5px !important;
         }
-
     }
     @media screen and (min-width: 500px)and (max-width: 768px) {
         .col{
             font-size:0.8rem;
         }
-
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
         .col{
@@ -104,5 +88,4 @@
             padding: 2.25% 0;
         }
     }
-
 </style>
