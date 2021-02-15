@@ -3,7 +3,7 @@
         <b-container>
             <h2>Малярно-покрасочные работы</h2>
             <p class="text">Усовершенствованная технология выполнения малярно-покрасочных работ и современное оборудование и материалы для покраски гарантируют Вам самое высокое качество работы.</p>
-            <img src="../../../public/images/activity/7.jpg" class="descr_img" alt="Малярно-покрасочные_работы">
+            <img src="../../../public/images/activity/painting.jpg" class="descr_img" alt="Малярно-покрасочные_работы">
             <p class="text"><u>Наш цех состоит из нескольких отделений:</u></p>
             <ul class="text ul_descr">
                 <li v-for="(paragraph, index) in  list_shop" :key="index" v-html="paragraph"></li>
