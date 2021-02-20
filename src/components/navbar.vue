@@ -137,9 +137,6 @@
          .btn-group {
              display: block !important;
          }
-         .btn-group {
-             display: block !important;
-         }
      }
      @media screen and (min-width: 768px)and (max-width: 992px) {
          #navbar-toggle-collapse{
@@ -171,9 +168,6 @@
          .btn-group {
              display: block !important;
          }
-         .btn-group {
-             display: block !important;
-         }
      }
      @media screen and (min-width: 992px)and (max-width: 1200px) {
          #navbar-toggle-collapse{
@@ -201,9 +195,6 @@
          .dropdown-menu{
              border: none !important;
              margin: 0.3rem 0 0 !important;
-         }
-         .btn-group {
-             display: block !important;
          }
          .btn-group {
              display: block !important;
