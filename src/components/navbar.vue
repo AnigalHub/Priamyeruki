@@ -137,9 +137,6 @@
         .btn-group {
             display: block !important;
         }
-        .btn-group {
-            display: block !important;
-        }
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
         #navbar-toggle-collapse{
@@ -167,9 +164,6 @@
         }
         .dropdown-item {
             border: none !important;
-        }
-        .btn-group {
-            display: block !important;
         }
         .btn-group {
             display: block !important;
@@ -205,9 +199,6 @@
         .btn-group {
             display: block !important;
         }
-        .btn-group {
-            display: block !important;
-        }
     }
 </style>
 
@@ -232,7 +223,6 @@
     .nav-link:hover{
         font-weight: 700;
     }
-
     .name_company{
         font-size: 1.6rem;
         color: #152534;
@@ -240,7 +230,6 @@
         letter-spacing: 5px;
         font-family: 'Caveat', cursive;
     }
-
     img{
         width: 35px !important;
         height: 35px !important;
