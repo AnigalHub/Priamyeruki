@@ -2,7 +2,7 @@
     <b-navbar class="navbar-expand-xl sticky-top " toggleable>
         <b-container>
             <b-navbar-brand to="/">
-                <img src="../../public/images/hands.jpg"  style="float: left"/>
+                <img src="favicon.jpg"  alt="логотип_компании" style="float: left" rel="preload"/>
                 <div class="name_company">Аваконт</div>
             </b-navbar-brand>
             <b-navbar-toggle target="navbar-toggle-collapse">
@@ -19,7 +19,7 @@
                         <b-dropdown text="Услуги">
                             <b-dropdown-item to="../processing_on_a_cnc_milling_machine">Обработка на фрезерном станке ЧПУ</b-dropdown-item>
                             <b-dropdown-item to="../design_and_modeling">Проектирование и моделировани</b-dropdown-item>
-                          <!--  <b-dropdown-item to="../chrome_plating">Химическая металлизация (хромирование)</b-dropdown-item>
+                            <!--<b-dropdown-item to="../chrome_plating">Химическая металлизация (хромирование)</b-dropdown-item>
                             <b-dropdown-item to="../aquaprint">Аквапринт (иммерсионная печать)</b-dropdown-item> -->
                             <b-dropdown-item to="../laser_engraving">Лазерная гравировка </b-dropdown-item>
                             <b-dropdown-item to="../sandblasing">Пескоструйная обработка</b-dropdown-item>
@@ -73,7 +73,6 @@
          background-color:white !important;
          padding: 0 !important;
      }
-
      @media screen and (max-width: 500px) {
          #navbar-toggle-collapse{
              padding-bottom: 2%;
@@ -227,9 +226,10 @@
      .name_company{
          font-size: 1.6rem;
          color: #152534;
-         font-weight: 700;
+         font-weight: 500;
+         font-style: italic;
          letter-spacing: 5px;
-         font-family: 'Caveat', cursive;
+         font-family: Caveat,cursive;
      }
 
      img{
