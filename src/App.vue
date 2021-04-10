@@ -21,10 +21,10 @@
     td,th{
         border: 1px solid #173e4e !important;
     }
-    .table{
+    table{
       margin-bottom: 0.05% !important;
     }
-    .table td {
+    table td {
       padding: 0.35rem !important;
     }
     th{
@@ -91,6 +91,7 @@
   }
   img{
     width: 100%;
+    height: auto;
     filter:  contrast(115%);
   }
   p{
@@ -159,10 +160,6 @@
   .col-5{
       padding: 0 !important;
   }
-  video{
-    width: 100%;
-    box-shadow: 5px 5px 5px #8a8a8a;
-  }
   h2,h4,h5,h6,.text{
     letter-spacing: -.5px;
   }
@@ -179,7 +176,7 @@
     font-weight: 700 !important;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.74);
     color: #152534;
-    font-size: 1.6rem !important;
+    font-size: 1.5rem;
     padding: 1.5% 0 1.5% 0;
   }
   h4{
@@ -208,6 +205,7 @@
   .descr_img{
     float: left;
     width: 38%;
+    height: auto;
     margin: 0 2% 0 0
   }
   .ul_descr{
@@ -274,7 +272,7 @@
       font-size: 0.8rem !important;
       letter-spacing: -.3px;
     }
-    h4{
+    h3,h4{
       font-size: 0.9rem !important;
     }
     .text_light,.text_night{
@@ -349,7 +347,7 @@
     h5,h6{
       font-size: 1.15rem !important;
     }
-    h4{
+    h3,h4{
       font-size: 1.2rem !important;
     }
     .text_light,.text_night{
@@ -434,7 +432,7 @@
     h6{
       font-size: 1.2rem !important;
     }
-    h4,h5{
+    h3,h4,h5{
       font-size: 1.25rem !important;
     }
     .text_light,.text_night{
@@ -476,7 +474,7 @@
     h5{
       font-size: 1.3rem !important;
     }
-    h4{
+    h3,h4{
       font-size: 1.35rem !important;
     }
     .text_light,.text_night{
