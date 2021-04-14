@@ -2,7 +2,7 @@
     <b-navbar class="navbar-expand-xl sticky-top " toggleable>
         <b-container>
             <b-navbar-brand to="/">
-                <img src="../../public/images/hands.jpg"  style="float: left"/>
+                <img src="favicon.jpg"  alt="логотип_компании" style="float: left" rel="preload"/>
                 <div class="name_company">Аваконт</div>
             </b-navbar-brand>
             <b-navbar-toggle target="navbar-toggle-collapse">
@@ -26,7 +26,7 @@
                             <b-dropdown-item to="../painting_works">Малярно-покрасочные работы</b-dropdown-item>
                             <b-dropdown-item to="../drawing_with_a_UV_printer">Нанесение графики с помощью УФ принтера</b-dropdown-item>
                         </b-dropdown>
-                       </b-nav-item>
+                    </b-nav-item>
                     <b-nav-item to="/samples_of_work">Образцы работ</b-nav-item>
                     <b-nav-item>Отзывы</b-nav-item>
                     <b-nav-item to="/contacts">Контакты</b-nav-item>
@@ -73,7 +73,6 @@
         background-color:white !important;
         padding: 0 !important;
     }
-
     @media screen and (max-width: 500px) {
         #navbar-toggle-collapse{
             padding-bottom: 2%;
@@ -223,13 +222,16 @@
     .nav-link:hover{
         font-weight: 700;
     }
+
     .name_company{
         font-size: 1.6rem;
         color: #152534;
-        font-weight: 700;
+        font-weight: 500;
+        font-style: italic;
         letter-spacing: 5px;
-        font-family: 'Caveat', cursive;
+        font-family: Caveat,cursive;
     }
+
     img{
         width: 35px !important;
         height: 35px !important;
