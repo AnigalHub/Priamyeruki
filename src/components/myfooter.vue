@@ -68,13 +68,13 @@
             flex-direction: column;
         }
         .col{
-            font-size:0.55rem;
+            font-size:0.9rem;
             padding: 0 5px !important;
         }
     }
     @media screen and (min-width: 500px)and (max-width: 768px) {
         .col{
-            font-size:0.8rem;
+            font-size:0.9rem;
         }
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
