@@ -3,7 +3,7 @@
         <b-container>
             <h2>Проектирование и моделирование</h2>
             <p class="text">Создание любой оригинальной детали начинается с составления проекта, полностью соответствующее ожиданиям клиента. Наша компания готова помочь Вам в этой непростой задаче. На каждый проект мы составляем техническое задание и формируем список требований клиента, который в любой момент готовы изменить по вашим пожеланиям.</p>
-            <img src="../../../public/images/activity/modelling.jpg" class="descr_img" alt="Проектирование_и_моделирование">
+            <img src="../../../public/images/activity/modelling.jpg" class="descr_img" alt="Проектирование_и_моделирование"  rel="preload">
             <p class="text">Инженеры компании ООО «Аваконт» используют два<u> комплексных решения </u> в процессе проектирования и моделирования:</p>
             <ul class="ul_descr">
                 <li class="text" v-for="(solution, index) in  complex_solutions" :key="index" v-html="solution"></li>
@@ -17,9 +17,7 @@
             </div>
             <h4>Процесс проектирования и моделирования включается следующие стадии:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
-                <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
-                         :img_service="service.img_service">
-                </service>
+                <service :index="index" :name_service="service .name_service" :description_service="service .description_service" :img_service="service.img_service"></service>
             </div>
             <p class="price">{{modeling.price}}</p>
         </b-container>

@@ -3,10 +3,9 @@
         <b-container>
             <h2>Лазерная гравировка деревянных и пластиковых поверхностей</h2>
             <p class="text">
-                <b> Лазерная гравировка </b> – современная технология нанесения изображения воздействием
-                лазерного излучения, способствующая высокой детализации и долговечности изображений
+                <b> Лазерная гравировка </b> – современная технология нанесения изображения воздействием лазерного излучения, способствующая высокой детализации и долговечности изображений
             </p>
-            <img src="../../../public/images/activity/laser.jpg" class="descr_img" alt="Лазерная_гравировка">
+            <img src="../../../public/images/activity/laser.jpg" class="descr_img" alt="Лазерная_гравировка"  rel="preload">
             <p class="text">
                 Уникальность технологии состоит в высокой точности получаемого изображения и возможности нанести на поверхность изделия рисунок любых размеров. Отсутствует механическое и тепловое воздействия на изделие, что полностью исключает деформацию.
             </p>
@@ -21,9 +20,7 @@
             </p>
             <h4>Технология лазерной гравировки:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
-                <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
-                         :img_service="service.img_service">
-                </service>
+                <service :index="index" :name_service="service .name_service" :description_service="service .description_service" :img_service="service.img_service"></service>
             </div>
             <h4>Прайс-лист:</h4>
             <b-table  hover :items="laser.price_table"></b-table>

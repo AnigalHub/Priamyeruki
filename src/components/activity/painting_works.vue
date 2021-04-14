@@ -3,16 +3,14 @@
         <b-container>
             <h2>Малярно-покрасочные работы</h2>
             <p class="text">Усовершенствованная технология выполнения малярно-покрасочных работ и современное оборудование и материалы для покраски гарантируют Вам самое высокое качество работы.</p>
-            <img src="../../../public/images/activity/painting.jpg" class="descr_img" alt="Малярно-покрасочные_работы">
+            <img src="../../../public/images/activity/painting.jpg" class="descr_img" alt="Малярно-покрасочные_работы" rel="preload">
             <p class="text"><u>Наш цех состоит из нескольких отделений:</u></p>
             <ul class="text ul_descr">
                 <li v-for="(paragraph, index) in  list_shop" :key="index" v-html="paragraph"></li>
             </ul>
-            <h4>Этапы технологического процесса:</h4>
+            <h4 class="clear">Этапы технологического процесса:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
-                <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
-                         :img_service="service.img_service">
-                </service>
+                <service :index="index" :name_service="service .name_service" :description_service="service .description_service" :img_service="service.img_service"></service>
             </div>
             <h4>Прайс-лист:</h4>
             <b-table  hover :items="painting.price_table_1"></b-table>
@@ -93,7 +91,6 @@
     }
 </script>
 <style scoped lang="scss">
-
     ul{
         margin-bottom: 0 !important;
     }

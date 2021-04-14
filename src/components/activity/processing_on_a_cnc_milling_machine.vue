@@ -5,7 +5,7 @@
             <p class="text">
                 Компания ООО «Аваконт» занимается любыми производственными объемами фрезерной обработки и имеет возможности для решения большого спектра задач: от изготовления уникальных единичных товаров до серийного производства однотипных изделий.
             </p>
-            <img src="../../../public/images/activity/processing.jpg" class="descr_img" alt="Обработка_дерева,_металла_и_пластика_на_фрезерном_станке_ЧПУ">
+            <img src="../../../public/images/activity/processing.jpg" class="descr_img" alt="Обработка_дерева,_металла_и_пластика_на_фрезерном_станке_ЧПУ"  rel="preload">
             <p class="text">
                 В производственном цехе наша компания имеет <u>фрезерно-гравировальный станок FZT-1212.</u>Сфера применения станка практически не ограничена, он оснащен современной системой ЧПУ, что предоставляет возможность обрабатывать самые разнообразные материалы: пластик, фанера, дерево, цветные металлы.
             </p>
@@ -17,9 +17,7 @@
             </p>
             <h4>Этапы работы изготовления детали на фрезерно-гравировальном станке с ЧПУ:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
-                <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
-                         :img_service="service.img_service">
-                </service>
+                <service :index="index" :name_service="service .name_service" :description_service="service .description_service" :img_service="service.img_service"></service>
             </div>
             <h4>Прайс-лист:</h4>
             <b-card no-body>
@@ -134,7 +132,6 @@
             border: none !important;
         }
     }
-
 </style>
 <style scoped lang="scss">
     li {
