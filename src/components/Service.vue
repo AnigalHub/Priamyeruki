@@ -3,7 +3,7 @@
         <h5> {{index + 1}}.{{name_service}}</h5>
         <b-row class="description_row">
             <b-col cols="2">
-                <img :src="img_service.imgSrc" :alt="img_service.imgAlt">
+                <img :src="img_service.imgSrc" :alt="img_service.imgAlt" rel="preload">
             </b-col>
             <b-col class="text">
                 {{description_service}}
