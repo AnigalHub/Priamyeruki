@@ -4,7 +4,7 @@
             <h2>Портфолио</h2>
             <div class="flex-container">
                 <div v-for="(work, index) in Works" :key="index">
-                    <img :src="work.src" :alt="work.alt"/>
+                    <img :src="work.src" :alt="work.alt" rel="preload"/>
                 </div>
             </div>
         </b-container>
@@ -88,6 +88,8 @@
         padding-bottom: 30px !important;
     }
     img{
+        width: 100%;
+        height: auto;
         filter: contrast(120%);
         box-shadow: 3px 3px 3px #696969;
     }
