@@ -1,7 +1,7 @@
 <template>
     <div id="mymap">
         <div class="feature map">
-            <iframe :src="address.map"></iframe>
+            <iframe :src="address.map" title="адрес_компании_Аваконт"></iframe>
         </div>
     </div>
 </template>
@@ -19,13 +19,13 @@
 
 <style scoped lang="scss">
     .feature.map {
-       background-color: #0e111d;
+        background-color: #0e111d;
         iframe {
             min-height: 400px;
             height: auto;
             width:100% !important;
             border:0;
-           filter: brightness(95%);
+            filter: brightness(95%);
             box-shadow: none !important;
         }
     }
