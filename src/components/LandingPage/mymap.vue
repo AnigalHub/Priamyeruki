@@ -1,7 +1,7 @@
 <template>
     <div id="mymap">
         <div class="feature map">
-            <iframe :src="address.map"></iframe>
+            <iframe :src="address.map" title="адрес_компании_Аваконт"></iframe>
         </div>
     </div>
 </template>
