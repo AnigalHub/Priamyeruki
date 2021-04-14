@@ -11,7 +11,7 @@
                     <p v-for=" value in item.specifications" :key="value">{{value}}</p>
               </template>
               <template v-slot:cell(equipment)="{item}">
-                    <img :src="item.equipment.imgSrc" :alt="item.equipment.imgAlt">
+                    <img :src="item.equipment.imgSrc" :alt="item.equipment.imgAlt" rel="preload">
               </template>
             </b-table>
 </b-container>
@@ -152,6 +152,10 @@
     }
 </style>
 <style scoped lang="scss">
+    img{
+        width: 100%;
+        height: auto;
+    }
     #equipment{
         padding-bottom: 2%;
     }
