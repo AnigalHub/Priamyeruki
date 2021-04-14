@@ -3,7 +3,7 @@
         <home></home>
         <activity></activity>
         <advantages></advantages>
-        <feedback></feedback>
+      <!--  <feedback></feedback> -->
         <mymap></mymap>
     </div>
 </template>
