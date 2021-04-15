@@ -1,5 +1,5 @@
 <template>
-    <div id="home">
+    <div id="home"  rel="preload">
         <div id="background">
             <b-container>
                 <div class="description">
