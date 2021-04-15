@@ -5,8 +5,8 @@
             <div class="flex-container">
                 <div v-for="(catalog, index) in calalog" :key="index">
                     <router-link :to="catalog.link">
-                        <img :src="catalog.src" :alt="catalog.alt"/>
-                        <h5>{{catalog.descr}}</h5>
+                        <img :src="catalog.src" :alt="catalog.alt" rel="preload"/>
+                        <h3>{{catalog.descr}}</h3>
                     </router-link>
                 </div>
             </div>
@@ -79,7 +79,9 @@
         text-align: center !important;
     }
     img{
-       filter: brightness(80%);
+        filter: brightness(80%);
+        width: 100%;
+        height: auto;
         box-shadow: none !important;
     }
     .flex-container {
@@ -95,20 +97,22 @@
     }
     .flex-container > div:hover {
         box-shadow:  0 0 9px  7px #1A394B;
-        h5{
+        h3{
             background: white;
         }
         img{
             filter: brightness(100%) contrast(130%);
         }
-        img,h5,div{
+        img,h3,div{
             animation: bounce-in .4s;
         }
     }
 
-    h5{
-        height: 80px;
-        padding: 0 0.5%;
+    h3{
+        font-size: 1.4rem;
+        cursor: pointer !important;
+        height: 90px;
+        padding: 0 0.25%;
         margin-bottom: 0 !important;
         background: radial-gradient(70% 70%, #ffffff, rgb(210, 206, 211));
         text-shadow: 1.2px 1.2px 1.2px rgba(255, 255, 255, 0.74);
@@ -120,7 +124,7 @@
     }
 
     @media screen and (max-width: 350px) {
-        h5 {
+        h3 {
             margin-top: 5% !important;
         }
     }
@@ -129,13 +133,17 @@
             width: 100%;
             margin: 0 1.5% 5% 1.5% !important;
             box-shadow: 5px 5px 5px #8a8a8a;
+
+            &:nth-child(4){
+                margin: 0 1.5% 5% 1.5% !important;
+            }
         }
         img{
             height: 80px !important;
             width: 30% !important;
             float: left;
         }
-        h5 {
+        h3 {
             height: 45px;
             display: flex;
             margin-top: 3%;
@@ -143,7 +151,7 @@
             background: none !important;
         }
         .flex-container > div:hover {
-            h5{
+            h3{
                 background: none;
             }
         }
@@ -154,20 +162,24 @@
             width: 46%;
             margin: 0 1.5% 2.5% 1.5% !important;
             box-shadow: 5px 5px 5px #8a8a8a;
+
+            &:nth-child(4){
+                margin: 0 1.5% 2.5% 1.5% !important;
+            }
         }
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
-        h5{
-            height: 90px;
+        h3{
+            height: 95px;
         }
     }
     @media screen and (min-width: 992px)and (max-width: 1200px) {
-        h5{
+        h3{
             height: 70px;
         }
     }
     @media screen and (max-width: 350px) {
-        h5 {
+        h3 {
             margin-top: 5% !important;
         }
     }
