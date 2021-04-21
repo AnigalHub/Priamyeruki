@@ -2,10 +2,7 @@
     <div id="equipment">
         <b-container>
             <h2>Производство</h2>
-            <p class="text">
-            Производственная площадь цеха составляет более <b>200</b> кв.м. Ниже представлена краткая
-            информация об оборудовании цеха компании ООО «Аваконт»:
-            </p>
+            <p class="text">Производственная площадь цеха составляет более <b>200</b> кв.м. Ниже представлена краткая информация об оборудовании цеха компании ООО «Аваконт»:</p>
             <b-table hover :items="item" :fields="TableFields">
               <template v-slot:cell(specifications)="{item}">
                     <p v-for=" value in item.specifications" :key="value">{{value}}</p>
@@ -14,8 +11,8 @@
                     <img :src="item.equipment.imgSrc" :alt="item.equipment.imgAlt" rel="preload">
               </template>
             </b-table>
-</b-container>
-</div>
+        </b-container>
+    </div>
 </template>
 
 <script>
@@ -112,8 +109,7 @@
                                 imgAlt:'Технологическая_ванна_для_аквапринта',
                             },
                         },
-                   ],
-
+                ],
                 TableFields:[
                     {
                         key:"name",

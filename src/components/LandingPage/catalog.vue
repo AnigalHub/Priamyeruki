@@ -93,7 +93,6 @@
             animation: bounce-in .4s;
         }
     }
-
     h3{
         font-size: 1.4rem;
         cursor: pointer !important;

@@ -10,9 +10,7 @@
             </ul>
             <h4 class="clear">Этапы технологического процесса:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
-                <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
-                         :img_service="service.img_service">
-                </service>
+                <service :index="index" :name_service="service .name_service" :description_service="service .description_service" :img_service="service.img_service"></service>
             </div>
             <h4>Прайс-лист:</h4>
             <b-table  hover :items="painting.price_table_1"></b-table>

@@ -8,8 +8,7 @@
                 <ul class="ul_descr">
                     <li class="text" v-for="(solution, index) in  complex_solutions" :key="index" v-html="solution"></li>
                 </ul>
-            <div class="text">
-                Изготавливая 3D модель Вашего изделия, мы не просто изображаем Вашу идею, а учитываем:
+            <div class="text">Изготавливая 3D модель Вашего изделия, мы не просто изображаем Вашу идею, а учитываем:
                 <ul>
                     <li v-for="(detail, index) in  manufacturing_details" :key="index">{{detail}}</li>
                 </ul>
@@ -17,9 +16,7 @@
             </div>
             <h4>Процесс проектирования и моделирования включается следующие стадии:</h4>
             <div v-for="(service,index ) in  StepsService" :key="service.index">
-                <service :index="index" :name_service="service .name_service" :description_service="service .description_service"
-                         :img_service="service.img_service">
-                </service>
+                <service :index="index" :name_service="service .name_service" :description_service="service .description_service" :img_service="service.img_service"></service>
             </div>
             <p class="price">{{modeling.price}}</p>
         </b-container>

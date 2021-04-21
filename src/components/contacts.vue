@@ -5,7 +5,7 @@
             <div class="text">
                <b>ООО «Аваконт»</b><br>
                <b>Телефон:</b><a :href="'tel:' + address.phone"> {{address.phone}}</a><br>
-                <b>Почта:</b><a :href="'mailto:'+ address.mail">{{address.mail}}</a><br>
+               <b>Почта:</b><a :href="'mailto:'+ address.mail">{{address.mail}}</a><br>
                <b>Часы работы:</b>{{address.working_hours}}
             </div>
             <b-row>
