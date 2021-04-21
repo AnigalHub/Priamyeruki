@@ -30,7 +30,6 @@
         }
     }
     @media screen and (max-width: 500px) {
-
         .feature.map {
             iframe {
                 min-height: 250px !important;
@@ -39,7 +38,6 @@
         }
     }
     @media screen and (min-width: 500px)and (max-width: 768px) {
-
         .feature.map {
             iframe {
                 min-height: 330px !important;

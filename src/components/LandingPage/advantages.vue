@@ -30,19 +30,16 @@
                     {
                         Advantages:[
                             {
-                                svg:PricePolicySVG,
-                                name_advantages:'Оптимальные сроки и ценовая политика',
+                                svg:PricePolicySVG, name_advantages:'Оптимальные сроки и ценовая политика',
                                 descr_advantages:'Наша компания учитывает индивидуальные особенности каждого заказа и предлагает лучшие условия для Заказчика',
 
                             },
                             {
-                                svg:LocalProductionSVG,
-                                name_advantages:'Собственное локальное производство',
+                                svg:LocalProductionSVG, name_advantages:'Собственное локальное производство',
                                 descr_advantages:'Мы имеем собственный цех, оснащенный современным оборудованием, что позволяет в кратчайшие сроки выполнить работу по договору.',
                             },
                             {
-                                svg:ProfessionalAdviceSVG,
-                                name_advantages:'Профессиональная консультация',
+                                svg:ProfessionalAdviceSVG, name_advantages:'Профессиональная консультация',
                                 descr_advantages:' Наши сотрудники готовы ответить на любые Ваши вопросы, обсудить тонкости Заказа и предложить самые лучшие варианты по выполнению Заказа.',
                             },
                         ],
@@ -50,19 +47,16 @@
                     {
                         Advantages:[
                             {
-                                svg:ServiceGuaranteeSVG,
-                                name_advantages:'Гарантия на услуги',
+                                svg:ServiceGuaranteeSVG, name_advantages:'Гарантия на услуги',
                                 descr_advantages:' На все производимые работы предоставляется гарантия сроком от 12 месяцем.',
                             },
                             {
-                                svg:DiscountSVG,
-                                name_advantages:'Скидка на первый заказ',
+                                svg:DiscountSVG, name_advantages:'Скидка на первый заказ',
                                 descr_advantages:' Нам важен каждый клиент, поэтому мы предоставляем скидку  50% на любой первый заказ',
                             },
 
                             {
-                                svg:DeliverySVG,
-                                name_advantages:'Доставка',
+                                svg:DeliverySVG, name_advantages:'Доставка',
                                 descr_advantages:'  Высылаем ваши изделия после выполнения услуг в удобное для Вас время с помощью системы СДЭК',
                             }
                         ],
@@ -105,7 +99,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
     @media screen and (max-width: 550px) {
         svg{
             margin-top: 0 !important;
@@ -162,5 +155,4 @@
     @media screen and (min-width: 1200px)and (max-width: 1400px) {
 
     }
-
 </style>

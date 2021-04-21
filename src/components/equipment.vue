@@ -2,9 +2,7 @@
     <div id="equipment">
         <b-container>
             <h2>Производство</h2>
-            <p class="text">
-                Производственная площадь цеха составляет более <b>200</b> кв.м. Ниже представлена краткая
-                информация об оборудовании цеха компании ООО «Аваконт»:
+            <p class="text">Производственная площадь цеха составляет более <b>200</b> кв.м. Ниже представлена краткая информация об оборудовании цеха компании ООО «Аваконт»:
             </p>
             <b-table hover :items="item" :fields="TableFields">
                 <template v-slot:cell(specifications)="{item}">
@@ -176,7 +174,6 @@
             padding-top: 2%;
         }
     }
-
     @media screen and (min-width: 500px)and (max-width: 768px) {
         td {
             display: block !important;
@@ -186,7 +183,4 @@
             display: none !important;
         }
     }
-
-
-
 </style>

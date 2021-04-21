@@ -107,7 +107,6 @@
             animation: bounce-in .4s;
         }
     }
-
     h3{
         font-size: 1.4rem;
         cursor: pointer !important;
@@ -122,7 +121,6 @@
         justify-content: center;
         color: #152534;
     }
-
     @media screen and (max-width: 350px) {
         h3 {
             margin-top: 5% !important;
@@ -183,5 +181,4 @@
             margin-top: 5% !important;
         }
     }
-
 </style>

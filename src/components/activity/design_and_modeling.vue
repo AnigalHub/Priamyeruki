@@ -8,8 +8,7 @@
             <ul class="ul_descr">
                 <li class="text" v-for="(solution, index) in  complex_solutions" :key="index" v-html="solution"></li>
             </ul>
-            <div class="text">
-                Изготавливая 3D модель Вашего изделия, мы не просто изображаем Вашу идею, а учитываем:
+            <div class="text"> Изготавливая 3D модель Вашего изделия, мы не просто изображаем Вашу идею, а учитываем:
                 <ul>
                     <li v-for="(detail, index) in  manufacturing_details" :key="index">{{detail}}</li>
                 </ul>

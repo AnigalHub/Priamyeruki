@@ -2,10 +2,7 @@
     <div id="home"  rel="preload">
         <div id="background">
             <b-container>
-                <div class="description">
-                    Изготовление разнообразного декора, рекламных вывесок,
-                    сувенирной продукции, реставрация, брендирование
-                </div>
+                <div class="description">Изготовление разнообразного декора, рекламных вывесок, сувенирной продукции, реставрация, брендирование</div>
                 <div class="buttons justify-content-center">
                     <router-link :to="{name: 'Samples'}" tag="button">Портфолио</router-link>
                     <router-link :to="{name: 'Equipment'}" tag="button">Производство</router-link>
@@ -94,7 +91,6 @@
             background: radial-gradient(50% 70%, #ffffff, rgb(144, 140, 145));
         }
     }
-
     @media screen and (min-width: 500px)and (max-width: 768px) {
         #background{
             padding:9.5% 0 9.5% 0;
@@ -129,5 +125,4 @@
             background-size: 100% 100%;
         }
     }
-
 </style>

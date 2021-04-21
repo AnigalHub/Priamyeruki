@@ -231,7 +231,6 @@
         letter-spacing: 5px;
         font-family: Caveat,cursive;
     }
-
     img{
         width: 35px !important;
         height: 35px !important;

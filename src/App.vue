@@ -214,34 +214,15 @@
   .clear{
     clear:left;
   }
-
   @keyframes bounce-in {
-    0% {
-      transform: scale(0);
-    }
-    50% {
-      transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
+    0% {transform: scale(0);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
   }
   @keyframes bounce-out {
-    0% {
-      transform: scale(0);
-    }
-    50% {
-      transform: scale(1.3);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  @media screen and (min-width: 2000px) and (min-height: 992px){
-    .text,.text_light,.text_night,h5,h6{
-      font-size: 1.4rem !important;
-      line-height: 1.65rem !important;
-    }
+    0% {transform: scale(0);}
+    50% {transform: scale(1.3);}
+    100% {transform: scale(1);}
   }
   @media screen and (max-width: 380px) {
     td{
@@ -250,7 +231,7 @@
       padding: 0.15rem !important;
     }
     td:first-child{
-      padding: 0rem !important;
+      padding: 0 !important;
     }
     table{
       margin-right: auto;
@@ -312,7 +293,6 @@
       }
       .col-6,.col-5,.col-4{
         max-width: 100% ;
-
       }
     }
     .description_row{
@@ -337,7 +317,6 @@
     ul{
       margin-left: -5% !important;
     }
-
   }
   @media screen and (min-width: 500px)and (max-width: 768px) {
     h2{
@@ -490,5 +469,10 @@
       font-size: 1.35rem !important;
     }
   }
-
+  @media screen and (min-width: 2000px) and (min-height: 992px){
+    .text,.text_light,.text_night,h5,h6{
+      font-size: 1.4rem !important;
+      line-height: 1.65rem !important;
+    }
+  }
 </style>
