@@ -131,58 +131,6 @@
         }
     }
 </script>
-<style >
-    @media screen and (max-width: 500px) {
-        tr:hover {
-            background: rgba(255, 255, 255, 0.87) !important;
-        }
-        td,th{
-            border: 0.4px solid #173e4e !important;
-        }
-        th:last-child, td:last-child {
-            display: none !important;
-        }
-    }
-    th {
-        background: #152534 !important;
-    }
-</style>
-<style scoped lang="scss">
-    img{
-        width: 100%;
-        height: auto;
-    }
-    #equipment{
-        padding-bottom: 2%;
-    }
-    h2{
-        text-align: left !important;
-        padding-bottom: 1% !important;
-    }
-    p {
-        margin-bottom: -0.2rem !important;
-        text-align:left !important;
-    }
-    img{
-        box-shadow: none !important;
-    }
-    @media screen and (max-width: 500px) {
-
-        table{
-            padding-top: 2%;
-        }
-    }
-
-    @media screen and (min-width: 500px)and (max-width: 768px) {
-        td {
-            display: block !important;
-        }
-
-        th:last-child {
-            display: none !important;
-        }
-    }
-
-
+<style>
 
 </style>
