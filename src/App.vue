@@ -667,14 +667,17 @@
     /*на страницах услуг - каждый этап*/
     .description_row{
       display: block !important;
+      /*картинки*/
       img{
         float: left;
         margin-right: 10%;
       }
+      /*параметры сетки бутстрап (картинки, текст и заголовок)*/
       .col,.col-2 {
         padding: 0 !important;
         float: none;
       }
+      /*параметры сетки бутстрап (блок под картинки)*/
       .col-2{
         flex: 0 0 25% !important;
         max-width: 25% !important;
@@ -901,6 +904,7 @@
     /*список на странице "Проектирование и моделирование"*/
     #modeling .ul_descr {
       clear: left;
+      /*пункты списка*/
       li{margin-left: -70%;}
     }
     /*стили для главной страницы*/
@@ -1008,9 +1012,7 @@
       font-size: 1.5rem !important;
     }
     h6{font-size: 1.2rem !important;}
-    h3,h4,h5{
-      font-size: 1.25rem !important;
-    }
+    h3,h4,h5{font-size: 1.25rem !important;}
     /*текст на темном и светлом фоне на главной странице*/
     .text_light,.text_night{
       font-weight: 400 !important;
@@ -1032,6 +1034,7 @@
     }
     /*на страницах услуг - каждый этап*/
     .description_row{
+      /*параметры сетки бутстрап (блок под картинки)*/
       .col-2 {
         flex: 0 0 18% !important;
         max-width: 18% !important;
@@ -1094,6 +1097,7 @@
     h6{font-size: 1.25rem !important;}
     h5{font-size: 1.3rem !important;}
     h3,h4{font-size: 1.35rem !important;}
+    /*текст на темном и светлом фоне на главной странице*/
     .text_light,.text_night{line-height: 1.2rem;}
     /*блок с фразой о цене (от чего она зависит), ячейки и заголовки таблиц, текст*/
     .price, td,th,.text{
