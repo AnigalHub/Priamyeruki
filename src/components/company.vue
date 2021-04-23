@@ -31,20 +31,10 @@
         data() {
             return {
                 AboutCompany:[
-                    {
-                        descr:'Компания ООО «Аваконт» была основана <u> 18 февраля 2019 года.</u>',
-                    },
-                    {
-                        descr:'  За это время мы качественно выполнили более <b>1500</b> заказов,\n' +
-                            '<b>40%</b> заказов - это повторные заказы наших Клиентов, а также обращения\n' +
-                            'по их рекомендациям. Наши цены - одни из самых  доступных в Москве и Московской области.',
-                    },
-                    {
-                        descr:'В своей работе мы придерживаемся особого подхода к каждому клиенту. Задачи, поставленные заказчиком, решаются исходя из личных пожеланий Клиента.',
-                    },
-                    {
-                        descr:'Обращаясь к нам, Вы получаете выполнение Вашего заказа в кратчайшие сроки и высокое качество производимых работ!',
-                    },
+                    {descr:'Компания ООО «Аваконт» была основана <u> 18 февраля 2019 года.</u>',},
+                    {descr:'  За это время мы качественно выполнили более <b>1500</b> заказов,<b>40%</b> заказов - это повторные заказы наших Клиентов, а также обращения по их рекомендациям. Наши цены - одни из самых  доступных в Москве и Московской области.',},
+                    {descr:'В своей работе мы придерживаемся особого подхода к каждому клиенту. Задачи, поставленные заказчиком, решаются исходя из личных пожеланий Клиента.',},
+                    {descr:'Обращаясь к нам, Вы получаете выполнение Вашего заказа в кратчайшие сроки и высокое качество производимых работ!',},
                 ],
                 StepsCompany: [
                     {svg: 'TelephoneSVG', name_step: 'Звоните или оставляете заявку',},
@@ -58,89 +48,5 @@
     }
 </script>
 <style scoped lang="scss">
-    .row:hover svg,
-    .flex-container div:hover svg{
-        animation: bounce-out 1.2s;
-    }
-    h5{
-        text-align: center !important;
-    }
-    h5,h6{
-        cursor: default;
-    }
-    img{
-        width: 45%;
-        float: left;
-        margin: 0 2% 1% 0;
-    }
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .flex-container > div {
-        width: 18%;
-        margin: 0 0.5% 1% 0.5% !important;
-    }
-    svg{
-        width: 120px;
-        height: 100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    @media screen and (max-width: 500px) {
-        img{
-            width: 70%;
-            float: none;
-        }
-        p{
-            margin-bottom: .25rem !important;
-        }
-        svg{
-            width: 50px;
-            height: 50px;
-        }
-        .flex-container > div {
-            width: 31.2%;
-            margin-bottom: 0 !important;
-        }
-        .flex-container > div:nth-child(4){
-            margin-left: 15% !important;
-        }
-    }
-    @media screen and (min-width: 500px)and (max-width: 768px) {
-        img{
-            width: 50%;
-        }
-        svg{
-            width: 75px;
-            height: 75px;
-        }
-    }
-    @media screen and (min-width: 768px)and (max-width: 992px) {
-        svg{
-            width: 85px;
-            height: 85px;
-        }
-    }
-    @media screen and (min-width: 992px)and (max-width: 1200px) {
-        svg{
-            width: 95px;
-            height: 95px;
-        }
-    }
-    @media screen and (max-width: 1600px) and (min-height: 992px){
-        svg{
-            margin-right: auto;
-            margin-left: auto;
-            margin-bottom: 1.5% !important;
-        }
-        .flex-container > div {
-            width: 31.2%;
-            margin-bottom: 5% !important;
-        }
-        .flex-container > div:nth-child(4){
-            margin-left: 15% !important;
-        }
-    }
+
 </style>

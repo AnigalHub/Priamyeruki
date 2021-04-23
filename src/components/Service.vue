@@ -25,9 +25,5 @@
 </script>
 
 <style scoped lang="scss">
-    @media screen and (min-width: 2000px) and (min-height: 992px) {
-        .description_row {
-            margin-bottom: 2% !important;
-        }
-    }
+
 </style>

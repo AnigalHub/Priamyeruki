@@ -16,7 +16,7 @@
                     <b><u>Адрес производства:</u></b>{{address.manufacturers_address}}
                 </b-col>
             </b-row>
-            <div class="feature map">
+            <div class="map">
                 <iframe :src="address.map" title="адрес_компании_Аваконт"></iframe>
             </div>
         </b-container>
@@ -37,53 +37,5 @@
 </script>
 
 <style scoped lang="scss">
-    a {
-        color: #152534;
-    }
-    a:hover{
-        color: rgba(23, 8, 133, 0.9);
-        font-weight: 600;
-    }
-    .text{
-        text-indent: 0 !important;
-    }
-    .col{
-        padding-left: 0 !important;
-    }
-    .feature.map {
-        iframe {
-            min-height: 700px;
-            box-shadow: none !important;
-            height: auto;
-            width:100%;
-            border:0;
-            filter: brightness(99%);
-            border-radius: 0.5rem;
-        }
-    }
-    @media screen and (max-width: 500px) {
-        .row{
-            flex-direction: column;
-        }
-    }
-    @media screen and (min-width: 500px)and (max-width: 768px) {
-        .row{
-            flex-direction: column;
-        }
-    }
-    @media screen and (min-width: 768px)and (max-width: 992px) {
-        .row{
-            flex-direction: column;
-        }
-    }
-    @media screen and (min-width: 2000px) and (min-height: 992px){
-        .row {
-            flex-direction: column;
-        }
-        .feature.map {
-            iframe {
-                min-height: 1250px;
-            }
-        }
-    }
+
 </style>

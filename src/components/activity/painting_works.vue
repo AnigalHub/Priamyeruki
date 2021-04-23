@@ -91,10 +91,5 @@
     }
 </script>
 <style scoped lang="scss">
-    ul{
-        margin-bottom: 0 !important;
-    }
-    li{
-        padding-bottom: 1.8%;
-    }
+
 </style>

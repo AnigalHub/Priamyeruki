@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="LandingPage">
         <home></home>
         <activity></activity>
         <advantages></advantages>
@@ -20,18 +20,5 @@
     }
 </script>
 <style lang="scss">
-    #activity,#feedback{
-        padding: .25% 0 2% 0;
-    }
-    h2 {
-        font-weight: 700 !important;
-        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.74);
-        color: #152534;
-    }
-    h4 {
-        text-align: center;
-    }
-    h5 {
-        font-weight: 700 !important;
-    }
+
 </style>

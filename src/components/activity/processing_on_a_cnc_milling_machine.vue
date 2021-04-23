@@ -80,62 +80,8 @@
     }
 </script>
 <style>
-    .card {
-        background: none !important;
-        border: 1px solid #173e4e !important;
-    }
-    .card-header {
-        border-bottom: 1px solid #173e4e !important;
-        background: none !important;
-    }
-    .nav-tabs .nav-link.active{
-        color: #152534 !important;
-        font-weight: 800 !important;
-        border-color: #173e4e #173e4e  !important;
-    }
-    .nav-link.active{
-        background: rgba(17, 53, 67, 0.32) !important;
-    }
-    a{
-        color: #152534 !important;
-    }
-    .nav-tabs{
-        font-family: 'Noto Serif TC', serif;
-        font-size: 1.3rem;
-    }
-    .card-body h5{
-        display: none !important;
-    }
-    @media screen and  (max-width: 992px) {
-        .tab-content > .tab-pane {
-            display: block !important;
-        }
-        .card-body h5{
-            display: block !important;
-        }
-        .card-body{
-            padding: 0.25rem !important;
-        }
-        .card-header{
-            display: none !important;
-        }
-        .card {
-            background: none !important;
-            border: none !important;
-        }
-    }
+
 </style>
 <style scoped lang="scss">
-    li {
-        text-indent: 0 !important;
-    }
-    .description_row{
-        .col{
-            display: block !important;
-            align-items: center
-        }
-    }
-    h5:nth-last-child(n+2){
-        text-align: center !important;
-    }
+
 </style>
