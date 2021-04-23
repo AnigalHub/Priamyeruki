@@ -42,226 +42,217 @@
          name: "navbar"
      }
  </script>
- <style>
-     .dropdown-toggle {
-         color: #152534 !important;
-         padding-right: 0.5rem !important;
-         padding-left: 0.5rem !important;
-         font-weight: 600 !important;
-         font-size: 1.25rem !important;
-         font-family: 'Tenor Sans', sans-serif;
-         letter-spacing: -.5px;
-         background: none !important;
-         border: none !important;
-     }
-     .nav-link:hover{
-         text-decoration: underline !important;
-     }
-     .dropdown-item {
-         color: #152534 !important;
-         font-weight: 600 !important;
-         font-size: 1.2rem;
-         border: 0.5px solid rgba(75, 105, 119, 0.66) !important;
-     }
-     .dropdown-item:hover{
-         background:  rgba(240, 240, 240, 0.97) !important;
-     }
-     .btn {
-         padding: 0 !important;
-     }
-     .dropdown-menu {
-         background-color:white !important;
-         padding: 0 !important;
-     }
-     @media screen and (max-width: 500px) {
-         #navbar-toggle-collapse{
-             padding-bottom: 2%;
-         }
-        .nav-link,.dropdown-item {
-             font-size: 0.8rem !important;
-         }
+<style>
+    /*кнопка - "Услуги"*/
+    .dropdown-toggle {
+        color: #152534 !important;
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        font-weight: 600 !important;
+        font-size: 1.25rem !important;
+        font-family: 'Tenor Sans', sans-serif;
+        letter-spacing: -.5px;
+        background: none !important;
+        border: none !important;
+    }
+    /*все кнопки в меню при наведении*/
+    .nav-link:hover{
+        text-decoration: underline !important;
+    }
+    /*все кнопки в меню (dropdown)*/
+    .dropdown-item {
+        color: #152534 !important;
+        font-weight: 600 !important;
+        font-size: 1.2rem;
+        border: 0.5px solid rgba(75, 105, 119, 0.66) !important;
+    }
+    /*все кнопки в меню (dropdown) при наведении*/
+    .dropdown-item:hover{
+        background:  rgba(240, 240, 240, 0.97) !important;
+    }
+    /*кнопки*/
+    .btn {padding: 0 !important;}
+    /*меню (dropdown)*/
+    .dropdown-menu {
+        background-color:white !important;
+        padding: 0 !important;
+    }
+
+    /****************** АДАПТИВНОСТЬ *******************/
+    @media screen and (max-width: 500px) {
+        /*блок под кнопки меню (collapse)*/
+        #navbar-toggle-collapse{padding-bottom: 2%;}
+        /*все кнопки в меню,все кнопки в меню (dropdown)*/
+        .nav-link,.dropdown-item {font-size: 0.8rem !important;}
+        /*все кнопки в меню при наведении*/
         .nav-link:hover{
             background:  rgba(240, 240, 240, 0.97) !important;
             text-decoration: none !important;
         }
-         .dropdown-toggle{
-             font-size: 0.85rem !important;
-         }
-         .nav-link,.dropdown-item,.dropdown-toggle{
-             padding: 0.2rem 0.1rem !important;
-             white-space:  normal !important;
-         }
-         .nav-link,.dropdown-item{
-             border-radius: 4px !important;
-         }
-         .dropdown-menu{
-             border: none !important;
-             margin: 0.3rem 0 0 !important;
-         }
-         .dropdown-item {
-             border: none !important;
-         }
-         .btn-group {
-             display: block !important;
-         }
-     }
-     @media screen and (min-width: 500px)and (max-width: 768px) {
-         #navbar-toggle-collapse{
-             padding-bottom: 2%;
-         }
-         .nav-link,.dropdown-item{
-             font-size: 0.9rem !important;
-         }
-         .dropdown-toggle{
-             font-size: 0.95rem !important;
-         }
-         .nav-link:hover{
-             background:  rgba(240, 240, 240, 0.97) !important;
-             text-decoration: none !important;
-         }
-         .nav-link,.dropdown-item,.dropdown-toggle{
-             padding: 0.2rem 0.2rem !important;
-             white-space:  normal !important;
-         }
-         .nav-link,.dropdown-item{
-             border-radius: 4px !important;
-         }
-         .dropdown-menu{
-             border: none !important;
-             margin: 0.3rem 1.5rem 0 !important;
-         }
-         .dropdown-item {
-             border: none !important;
-         }
-         .btn-group {
-             display: block !important;
-         }
-     }
-     @media screen and (min-width: 768px)and (max-width: 992px) {
-         #navbar-toggle-collapse{
-             padding-bottom: 2%;
-         }
-         .nav-link,.dropdown-item{
-             font-size: 1.15rem !important;
-         }
-         .nav-link:hover{
-             background:  rgba(240, 240, 240, 0.97) !important;
-             text-decoration: none !important;
-         }
-         .dropdown-toggle{
-             font-size: 1rem !important;
-         }
-         .nav-link,.dropdown-item,.dropdown-toggle{
-             white-space:  normal !important;
-         }
-         .nav-link,.dropdown-item{
-             border-radius: 4px !important;
-         }
-         .dropdown-menu{
-             border: none !important;
-             margin: 0.3rem 0 0 !important;
-         }
-         .dropdown-item {
-             border: none !important;
-         }
-         .btn-group {
-             display: block !important;
-         }
-     }
-     @media screen and (min-width: 992px)and (max-width: 1200px) {
-         #navbar-toggle-collapse{
-             padding-bottom: 2%;
-         }
-         .nav-link,.dropdown-item{
-             font-size: 1.2rem !important;
-         }
-         .nav-link:hover{
-             background:  rgba(240, 240, 240, 0.97) !important;
-             text-decoration: none !important;
-         }
-         .dropdown-toggle{
-             font-size: 1.1rem !important;
-         }
-         .nav-link,.dropdown-item,.dropdown-toggle{
-             white-space:  normal !important;
-         }
-         .nav-link,.dropdown-item{
-             border-radius: 4px !important;
-         }
-         .dropdown-item {
-             border: none !important;
-         }
-         .dropdown-menu{
-             border: none !important;
-             margin: 0.3rem 0 0 !important;
-         }
-         .btn-group {
-             display: block !important;
-         }
-     }
- </style>
+        /*кнопка - "Услуги"*/
+        .dropdown-toggle{font-size: 0.85rem !important;}
+        /*все кнопки в меню,все кнопки в меню (dropdown),кнопка - "Услуги"*/
+        .nav-link,.dropdown-item,.dropdown-toggle{
+            padding: 0.25rem 0.1rem !important;
+            white-space: normal !important;
+        }
+        /*все кнопки в меню, все кнопки в меню (dropdown)*/
+        .nav-link,.dropdown-item{border-radius: 4px !important;}
+        /*меню (dropdown)*/
+        .dropdown-menu{
+            border: none !important;
+            margin: 0.3rem 0 0 !important;
+        }
+        /*все кнопки в меню (dropdown)*/
+        .dropdown-item {border: none !important;}
+        /*кнопка - "Услуги"*/
+        .btn-group {display: block !important;}
+    }
+    @media screen and (min-width: 500px)and (max-width: 768px) {
+        /*блок под кнопки меню (collapse)*/
+        #navbar-toggle-collapse{padding-bottom: 2%;}
+        /*все кнопки в меню,*/
+        .nav-link,.dropdown-item{font-size: 0.9rem !important;}
+        /*кнопка - "Услуги"*/
+        .dropdown-toggle{font-size: 0.95rem !important;}
+        /*все кнопки в меню при наведении*/
+        .nav-link:hover{
+            background:  rgba(240, 240, 240, 0.97) !important;
+            text-decoration: none !important;
+        }
+        /*все кнопки в меню, все кнопки в меню (dropdown), кнопка - "Услуги"*/
+        .nav-link,.dropdown-item,.dropdown-toggle{
+            padding: 0.2rem 0.2rem !important;
+            white-space:  normal !important;
+        }
+        /*все кнопки в меню, все кнопки в меню (dropdown)*/
+        .nav-link,.dropdown-item{border-radius: 4px !important;}
+        /*меню (dropdown)*/
+        .dropdown-menu{
+            border: none !important;
+            margin: 0.3rem 1.5rem 0 !important;
+        }
+        /*все кнопки в меню (dropdown)*/
+        .dropdown-item {border: none !important;}
+        /*кнопка - "Услуги"*/
+        .btn-group {display: block !important;}
+    }
+    @media screen and (min-width: 768px)and (max-width: 992px) {
+        /*блок под кнопки меню (collapse)*/
+        #navbar-toggle-collapse{padding-bottom: 2%;}
+        /*все кнопки в меню, все кнопки в меню (dropdown)*/
+        .nav-link,.dropdown-item{font-size: 1.15rem !important;}
+        /*все кнопки в меню при наведении*/
+        .nav-link:hover{
+            background:  rgba(240, 240, 240, 0.97) !important;
+            text-decoration: none !important;
+        }
+        /*кнопка - "Услуги"*/
+        .dropdown-toggle{font-size: 1rem !important;}
+        /*все кнопки в меню, все кнопки в меню (dropdown), кнопка - "Услуги"*/
+        .nav-link,.dropdown-item,.dropdown-toggle{white-space:  normal !important;}
+        /*все кнопки в меню, все кнопки в меню (dropdown)*/
+        .nav-link,.dropdown-item{border-radius: 4px !important;}
+        /*меню (dropdown)*/
+        .dropdown-menu{
+            border: none !important;
+            margin: 0.3rem 0 0 !important;
+        }
+        /*все кнопки в меню (dropdown)*/
+        .dropdown-item {border: none !important;}
+        /*кнопка - "Услуги"*/
+        .btn-group {display: block !important;}
+    }
+    @media screen and (min-width: 992px)and (max-width: 1200px) {
+        /*блок под кнопки меню (collapse)*/
+        #navbar-toggle-collapse{padding-bottom: 2%;}
+        /*все кнопки в меню, все кнопки в меню (dropdown)*/
+        .nav-link,.dropdown-item{font-size: 1.2rem !important;}
+        /*все кнопки в меню при наведении*/
+        .nav-link:hover{
+            background:  rgba(240, 240, 240, 0.97) !important;
+            text-decoration: none !important;
+        }
+        /*кнопка - "Услуги"*/
+        .dropdown-toggle{font-size: 1.1rem !important;}
+        /*все кнопки в меню, все кнопки в меню (dropdown),кнопка - "Услуги"*/
+        .nav-link,.dropdown-item,.dropdown-toggle{white-space:  normal !important;}
+        /*все кнопки в меню, все кнопки в меню (dropdown)*/
+        .nav-link,.dropdown-item{border-radius: 4px !important;}
+        /*все кнопки в меню (dropdown)*/
+        .dropdown-item {border: none !important;}
+        /*меню (dropdown)*/
+        .dropdown-menu{
+            border: none !important;
+            margin: 0.3rem 0 0 !important;
+        }
+        /*кнопка - "Услуги"*/
+        .btn-group {display: block !important;}
+    }
+</style>
 
- <style scoped lang="scss">
-     .navbar{
-         background: #ffffff;
-         border-bottom: 2px solid #152534;
-         background-size:cover;
-         padding: 0 !important;
-     }
-     .navbar-brand {
-         padding-right: 5% !important;
-     }
-     .nav-link{
-         color: #152534 !important;
-         padding-right: 0.8rem !important;
-         padding-left: 0.8rem !important;
-         font-weight: 600;
-         font-size: 1.25rem ;
-         font-family: 'Tenor Sans', sans-serif;
-     }
-     .nav-link:hover{
-         font-weight: 700;
-     }
-
-     .name_company{
-         font-size: 1.6rem;
-         color: #152534;
-         font-weight: 500;
-         font-style: italic;
-         letter-spacing: 5px;
-         font-family: Caveat,cursive;
-     }
-
-     img{
-         width: 35px !important;
-         height: 35px !important;
-         border: 1px solid rgba(163, 163, 163, 0.75);
-         box-shadow: 0.1em 0.1em 0.2em #e0e0e0;
-         margin-right: 4px;
-         border-radius: 7px;
-     }
-     @media screen and (max-width: 500px) {
-         .name_company{
-             font-size: 1.32rem;
-             letter-spacing: 3px;
-         }
-         img {
-             width: 28px !important;
-             height: 28px !important;
-         }
-     }
-     @media screen and (min-width: 500px)and (max-width: 768px) {
-         .name_company{
-             font-size: 1.45rem;
-         }
-         img {
-             width: 30px !important;
-             height: 30px !important;
-         }
-     }
-     @media screen and (min-width: 768px)and (max-width: 992px) {
-         .name_company{
-             font-size: 1.5rem;
-         }
-     }
- </style>
+<style scoped lang="scss">
+    /*меню на всех экранах (которое будет и складываться на маленьких экранах и раскрываться на больших)*/
+    .navbar{
+        background: #ffffff;
+        border-bottom: 2px solid #152534;
+        background-size:cover;
+        padding: 0 !important;
+    }
+    /*блок под логотип(картинка, название компании)*/
+    .navbar-brand {padding-right: 5% !important;}
+    /*все кнопки в меню*/
+    .nav-link{
+        color: #152534 !important;
+        padding-right: 0.8rem !important;
+        padding-left: 0.8rem !important;
+        font-weight: 600;
+        font-size: 1.25rem ;
+        font-family: 'Tenor Sans', sans-serif;
+        &:hover{font-weight: 700;}
+    }
+    /*название компании (Аваконт) в логотипе*/
+    .name_company{
+        font-size: 1.65rem;
+        color: #152534;
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: 7px;
+        font-family: Caveat,cursive;
+    }
+    /*картинка в логотипе*/
+    img{
+        width: 35px !important;
+        height: 35px !important;
+        border: 1px solid rgba(163, 163, 163, 0.75);
+        box-shadow: 0.1em 0.1em 0.2em #e0e0e0;
+        margin-right: 4px;
+        border-radius: 7px;
+    }
+    /****************** АДАПТИВНОСТЬ ****************/
+    @media screen and (max-width: 500px) {
+        /*название компании (Аваконт) в логотипе*/
+        .name_company{
+            font-size: 1.32rem;
+            letter-spacing: 3px;
+        }
+        /*картинка в логотипе*/
+        img{
+            width: 28px !important;
+            height: 28px !important;
+        }
+    }
+    @media screen and (min-width: 500px)and (max-width: 768px) {
+        /*название компании (Аваконт) в логотипе*/
+        .name_company{font-size: 1.45rem;}
+        /*картинка в логотипе*/
+        img {
+            width: 30px !important;
+            height: 30px !important;
+        }
+    }
+    @media screen and (min-width: 768px)and (max-width: 992px) {
+        /*название компании (Аваконт) в логотипе*/
+        .name_company{font-size: 1.5rem;}
+    }
+</style>
