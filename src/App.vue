@@ -624,10 +624,12 @@
       font-size: 0.8rem !important;
       letter-spacing: -.3px;
     }
+    /*текст на темном и светлом фоне на главной странице*/
     .text_light,.text_night{
       line-height: 0.8rem;
       font-size: 0.8rem;
     }
+    /*текст на темном фоне на главной странице*/
     .text_light{font-weight: 400 !important;}
     /*блок с фразой о цене (от чего она зависит), текст*/
     .price,.text{
@@ -662,14 +664,17 @@
     /*на страницах услуг - каждый этап*/
     .description_row{
       display: block !important;
+      /*картинки*/
       img{
         float: left;
         margin-right: 10%;
       }
+      /*параметры сетки бутстрап (картинка, текст, заголовок)*/
       .col,.col-2 {
         padding: 0 !important;
         float: none;
       }
+      /*параметры сетки бутстрап (картинка)*/
       .col-2{
         flex: 0 0 25% !important;
         max-width: 25% !important;
@@ -831,10 +836,12 @@
     }
     h5,h6{font-size: 1.15rem !important;}
     h3,h4{font-size: 1.2rem !important;}
+    /*текст на темном и светлом фоне на главной странице*/
     .text_light,.text_night{
       line-height: 0.9rem;
       font-size: 1rem;
     }
+    /*текст на темном фоне на главной странице*/
     .text_light{font-weight: 400 !important;}
     /*блок с фразой о цене (от чего она зависит), текст*/
     .price,.text{
@@ -890,8 +897,10 @@
       clear: left;
       margin-left: -70%;
     }
+    /*список на странице "Проектирование и моделирование"*/
     #modeling .ul_descr {
       clear: left;
+      /*пункты списка*/
       li{margin-left: -70%;}
     }
     /*стили для главной страницы*/
@@ -999,6 +1008,7 @@
     h3,h4,h5{
       font-size: 1.25rem !important;
     }
+    /*текст на темном и светлом фоне на главной странице*/
     .text_light,.text_night{
       font-weight: 400 !important;
       line-height: 1.1rem;
@@ -1019,11 +1029,13 @@
     }
     /*на страницах услуг - каждый этап*/
     .description_row{
+      /*параметры сетки бутстрап (блок под картинку)*/
       .col-2 {
         flex: 0 0 18% !important;
         max-width: 18% !important;
       }
     }
+    /*последний пункт списка на странице - "Проектирование и моделирование"*/
     #modeling .ul_descr li:last-child{margin-left: -70% !important;}
     /*стили для главной страницы*/
     #LandingPage{
