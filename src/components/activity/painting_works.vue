@@ -43,7 +43,7 @@
                             ' удаление ржавчин, старой краски и коррозий, которые могут' +
                             ' помешать качественной покраски.',
                         img_service: {
-                            imgSrc:'./images/painting/painting_1.jpg',
+                            imgSrc:'images/painting/painting_1.jpg',
                             imgAlt:'Демонтаж_детали',
                         },
                     },
@@ -56,7 +56,7 @@
                             ' бесконтактный (нанесения активной пены на деталь), контактный' +
                             ' (с помощью мягкой тряпки или губки).',
                         img_service: {
-                            imgSrc:'./images/painting/painting_2.jpg',
+                            imgSrc:'images/painting/painting_2.jpg',
                             imgAlt:'Обезжиривание',
                         },
                     },
@@ -71,7 +71,7 @@
                             ' идеально выравнивается и сглаживается, убираются самые' +
                             ' микроскопические дефекты.',
                         img_service: {
-                            imgSrc:'./images/painting/painting_3.png',
+                            imgSrc:'images/painting/painting_3.png',
                             imgAlt:'Подготовка_поверхности_детали_к_покраске_и_грунтование',
                         },
                     },
@@ -81,7 +81,7 @@
                             ' лакокрасочного покрытия, полностью перекрывая грунт. Затем деталь' +
                             ' отправляется в сушильную камеру до полного высыхания.',
                         img_service: {
-                            imgSrc:'./images/painting/painting_4.jpg',
+                            imgSrc:'images/painting/painting_4.jpg',
                             imgAlt:'Нанесение_краски_и_сушка',
                         },
                     },

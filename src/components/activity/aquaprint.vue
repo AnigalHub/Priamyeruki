@@ -34,7 +34,7 @@
                             ' обрабатывают грунтовкой, убирают все неровности. При необходимости' +
                             ' покрывают небольшим слоем эмали для нужного оттенка.',
                         img_service: {
-                            imgSrc:'./images/aquaprint/aquaprint_1.png',
+                            imgSrc:'images/aquaprint/aquaprint_1.png',
                             imgAlt:'Подготовка_поверхности_изделия',
                         },
                     },
@@ -46,7 +46,7 @@
                             ' растворимым слоем вниз. Выдерживается 1-2 минуты, устанавливаются' +
                             ' ограничительный рейки.',
                         img_service: {
-                            imgSrc:'./images/aquaprint/aquaprint_2.jpg',
+                            imgSrc:'images/aquaprint/aquaprint_2.jpg',
                             imgAlt:'Работа_с_иммерсионной_пленкой',
                         },
                     },
@@ -57,7 +57,7 @@
                             ' допуская образования «тумана». Таким образом, мы придаем пленке мягкость' +
                             ' и пластичность.',
                         img_service: {
-                            imgSrc:'./images/aquaprint/aquaprint_3.jpg',
+                            imgSrc:'images/aquaprint/aquaprint_3.jpg',
                             imgAlt:'Распыление_активатора',
                         },
                     },
@@ -71,7 +71,7 @@
                             ' несколько слоев (количество определяется индивидуально) и полируют при' +
                             ' помощи специальной полировальной машины.',
                         img_service: {
-                            imgSrc:'./images/aquaprint/aquaprint_4.jpg',
+                            imgSrc:'images/aquaprint/aquaprint_4.jpg',
                             imgAlt:'Перенос_изображени_и_пост-обработка',
                         },
                     },

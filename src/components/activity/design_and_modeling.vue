@@ -52,7 +52,7 @@
                             ' техническое задание, проверяя наименования, область применения' +
                             ' изделия, цель, материал, габариты, толщину изделия и прочее.',
                         img_service: {
-                            imgSrc:'./images/modelling/modelling_1.jpg',
+                            imgSrc:'images/modelling/modelling_1.jpg',
                             imgAlt:'Составление_ТЗ',
                         },
                     },
@@ -62,7 +62,7 @@
                             ' выделяем окончательную концепцию), выявляем' +
                             ' несоответствие целям моделирования.',
                         img_service: {
-                            imgSrc:'./images/modelling/modelling_2.png',
+                            imgSrc:'images/modelling/modelling_2.png',
                             imgAlt:'Построение_модели',
                         },
                     },
@@ -71,7 +71,7 @@
                         description_service: '   Исследуем полученные результаты (испытываем решение на соответветствие рабочих показателей),' +
                             ' детально прорабатываем проект и корректируем исследуемую модель.',
                         img_service: {
-                            imgSrc:'./images/modelling/modelling_3.jpg',
+                            imgSrc:'images/modelling/modelling_3.jpg',
                             imgAlt:'Анализ_результатов_моделирования',
                         },
                     },
