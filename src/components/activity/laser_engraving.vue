@@ -34,7 +34,7 @@
                         description_service: 'При помощи современного графического редактора (CorelDraw, Photoshop, AutoCAD, Illustrator, InkScape)' +
                             ' рисуется чертеж будущегоизображения. Все просчитывается до мельчайших деталей, чтобы гравировка была качественная и точная.',
                         img_service: {
-                            imgSrc:'images/laser/laser_1.png',
+                            imgSrc:'images/laser/laser_1.jpg',
                             imgAlt:'Создание_эскиза',
                         },
                     },
@@ -43,7 +43,7 @@
                         description_service: 'Перед лазерной гравировкой, Заказчику показывается эскиз, вносятся и ' +
                             ' корректируются различные недостатки, дефекты, пожелания.',
                         img_service: {
-                            imgSrc:'images/laser/laser_2.png',
+                            imgSrc:'images/laser/laser_2.jpg',
                             imgAlt:'Согласование_с_Заказчиком',
                         },
                     },

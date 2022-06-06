@@ -34,7 +34,7 @@
                             ' обрабатывают грунтовкой, убирают все неровности. При необходимости' +
                             ' покрывают небольшим слоем эмали для нужного оттенка.',
                         img_service: {
-                            imgSrc:'images/aquaprint/aquaprint_1.png',
+                            imgSrc:'images/aquaprint/aquaprint_1.jpg',
                             imgAlt:'Подготовка_поверхности_изделия',
                         },
                     },

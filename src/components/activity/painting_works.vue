@@ -71,7 +71,7 @@
                             ' идеально выравнивается и сглаживается, убираются самые' +
                             ' микроскопические дефекты.',
                         img_service: {
-                            imgSrc:'images/painting/painting_3.png',
+                            imgSrc:'images/painting/painting_3.jpg',
                             imgAlt:'Подготовка_поверхности_детали_к_покраске_и_грунтование',
                         },
                     },

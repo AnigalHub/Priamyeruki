@@ -62,7 +62,7 @@
                             ' выделяем окончательную концепцию), выявляем' +
                             ' несоответствие целям моделирования.',
                         img_service: {
-                            imgSrc:'images/modelling/modelling_2.png',
+                            imgSrc:'images/modelling/modelling_2.jpg',
                             imgAlt:'Построение_модели',
                         },
                     },
