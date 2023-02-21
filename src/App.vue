@@ -111,12 +111,15 @@
   }
 </style>
 <style lang="scss">
+  body{
+    background: #acc0c7 !important;
+  }
   /*все страницы*/
   #app{
     height: 100%;
     margin: 0 !important;
     padding: 0 !important;
-    background: rgba(27, 82, 101, 0.2);
+    background: #acc0c7;
   }
   /*контейнер на блоки на всю площадь экрана*/
   .container-fluid{
