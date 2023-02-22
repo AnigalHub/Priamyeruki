@@ -8,7 +8,6 @@
                         <br><br>
                     </div>
                 </b-col>
-                <b-col>{{address.manufacturers_address}}</b-col>
             </b-row>
         </b-container>
     </div>
@@ -36,8 +35,9 @@
                     },
                     {
                         pages:[
-                            {link: "/contacts", page: "Отзывы",},
+                            // {link: "/contacts", page: "Отзывы",},
                             {link: "/contacts", page: "Контакты",},
+                            {link: "/contacts", page: "Пн. – Пт.: с 9:00 до 18:00",},
                         ],
                     },
                 ]
